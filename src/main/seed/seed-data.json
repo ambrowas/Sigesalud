@@ -1,0 +1,14 @@
+{
+  "regions": ["North","South"],
+  "facilities": [
+    {"id":1,"name":"Central Hospital","region":"North"},
+    {"id":2,"name":"District Clinic A","region":"North"},
+    {"id":3,"name":"District Clinic B","region":"South"}
+  ],
+  "users": [
+    {"username":"min_admin","password":"adminpwd","role":"MINISTRY_ADMIN","facility_id":null},
+    {"username":"region_mgr","password":"regionpwd","role":"REGION_MANAGER","facility_id":null},
+    {"username":"fac_op","password":"facpwd","role":"FACILITY_OPERATOR","facility_id":2},
+    {"username":"pharm_off","password":"pharmpwd","role":"PHARMACY_OFFICER","facility_id":1}
+  ]
+}

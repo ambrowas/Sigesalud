@@ -1,0 +1,8 @@
+﻿{
+  "version": "v1",
+  "alerts": [
+    {"alert_id":"LAB_ALERT_001","date":"2025-12-31","type":"RDT_STOCK_LOW","severity":"ALTA","facility_id":"HOSP_GENERAL_LITORAL_BATA","message":"RDT malaria con stock bajo. Posible interrupcion de pruebas."},
+    {"alert_id":"LAB_ALERT_002","date":"2025-12-31","type":"MACHINE_DOWNTIME","severity":"MEDIA","facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","message":"Equipo hematologia fuera de servicio por mantenimiento."},
+    {"alert_id":"LAB_ALERT_003","date":"2025-12-30","type":"POSITIVITY_SPIKE","severity":"ALTA","facility_id":"HOSP_REGIONAL_MALABO","message":"Aumento de positividad malaria RDT en las ultimas 48h."}
+  ]
+}

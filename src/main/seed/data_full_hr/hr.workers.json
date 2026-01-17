@@ -1,0 +1,33 @@
+﻿{
+  "version": "v1",
+  "workers": [
+    {
+      "worker_id": "HW_000001",
+      "full_name": "Dr. Juan Ndong Obiang",
+      "sex": "M",
+      "dob": "1982-06-14",
+      "nationality": "Guinea Ecuatorial",
+      "cadre": "MEDICO",
+      "specialty": "MEDICINA_GENERAL",
+      "license_number": "GE-MED-20331",
+      "employment_type": "PUBLICO",
+      "status": "ACTIVO",
+      "contact": { "phone": "+240222000111", "email": "j.ndong@sigesalud.ge" },
+      "home_district_id": null
+    },
+    {
+      "worker_id": "HW_000245",
+      "full_name": "Enf. Maria Ela Nze",
+      "sex": "F",
+      "dob": "1991-02-03",
+      "nationality": "Guinea Ecuatorial",
+      "cadre": "ENFERMERIA",
+      "specialty": "ENFERMERIA_GENERAL",
+      "license_number": "GE-ENF-99120",
+      "employment_type": "PUBLICO",
+      "status": "ACTIVO",
+      "contact": { "phone": "+240333000222", "email": "m.ela@sigesalud.ge" },
+      "home_district_id": null
+    }
+  ]
+}

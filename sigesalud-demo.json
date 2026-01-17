@@ -1,0 +1,2160 @@
+{
+  "users": [
+    {
+      "id": 1767226682673,
+      "username": "min_admin",
+      "password": "$2a$08$eLoMtab8ZeDnnP5nTqgs5exLyO.d1xBv01HJYXixSroTQUXWS3VbW",
+      "role": "MINISTRY_ADMIN",
+      "facility_id": null
+    },
+    {
+      "id": 1767226682810,
+      "username": "region_mgr",
+      "password": "$2a$08$tBs.VcxslZr1Uf24zmjlWOfNm9tk0jARARiCJ2Qkjd9W6P9Mit8D2",
+      "role": "REGION_MANAGER",
+      "facility_id": null
+    },
+    {
+      "id": 1767226682682,
+      "username": "fac_op",
+      "password": "$2a$08$r5wuaJLa33Q4unarXbE0VetXss00h4cbyISQJkF0vy0E5T2TxpFU6",
+      "role": "FACILITY_OPERATOR",
+      "facility_id": 2
+    },
+    {
+      "id": 1767226682543,
+      "username": "pharm_off",
+      "password": "$2a$08$JpNGqOQtwo8FyzrAai3ITe8aJsC7uGOEhMt45/zwmAJMctGXtJA7a",
+      "role": "PHARMACY_OFFICER",
+      "facility_id": 1
+    }
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "facility_id": "LEGACY_1",
+      "name": "Central Hospital",
+      "region": "North"
+    },
+    {
+      "id": 2,
+      "facility_id": "LEGACY_2",
+      "name": "District Clinic A",
+      "region": "North"
+    },
+    {
+      "id": 3,
+      "facility_id": "LEGACY_3",
+      "name": "District Clinic B",
+      "region": "South"
+    },
+    {
+      "id": 1767226682676,
+      "facility_id": "HOSP_REGIONAL_MALABO",
+      "name": "Hospital Regional de Malabo",
+      "region": "INSULAR",
+      "province": "Bioko Norte",
+      "district": "Malabo",
+      "city": "Malabo",
+      "facility_type": "HOSPITAL",
+      "reference_level": "REGIONAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "REFERRALS"
+      ],
+      "contacts": {
+        "phones": [
+          "+240222763363"
+        ],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "id": 1767226682345,
+      "facility_id": "HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO",
+      "name": "Hospital La Paz Medical Center",
+      "region": "INSULAR",
+      "province": "Bioko Norte",
+      "district": "Malabo",
+      "city": "Malabo",
+      "facility_type": "HOSPITAL",
+      "reference_level": "PRIVATE_REFERENCE",
+      "ownership": "PRIVATE",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "SPECIALIST_CARE"
+      ],
+      "contacts": {
+        "phones": [
+          "+240556666154"
+        ],
+        "website": null
+      },
+      "address_note": "Banades 3C Al S. Sipopo, Bioko Norte (Malabo)",
+      "data_quality": {
+        "missing": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": 1767226682839,
+      "facility_id": "CLINICA_GUADALUPE_MALABO",
+      "name": "Clínica Guadalupe",
+      "region": "INSULAR",
+      "province": "Bioko Norte",
+      "district": "Malabo",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "PRIMARY_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Dirección no especificada (en el texto base).",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "id": 1767226682621,
+      "facility_id": "LAB_CASTRO_VERDE_ELA_NGUEMA",
+      "name": "Laboratorio Castro Verde",
+      "region": "INSULAR",
+      "province": "Bioko Norte",
+      "district": "Malabo",
+      "city": "Malabo",
+      "facility_type": "LAB",
+      "reference_level": "SPECIALIZED",
+      "ownership": "FAITH_BASED",
+      "services": [
+        "LAB_DIAGNOSTICS",
+        "TROPICAL_DISEASES",
+        "MALARIA_DIAGNOSIS"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Barrio de Ela Nguema; dirigido por la comunidad teresiana.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website"
+        ]
+      }
+    },
+    {
+      "id": 1767226681902,
+      "facility_id": "CLINICA_SANTA_ISABEL_LUBA",
+      "name": "Clínica Santa Isabel",
+      "region": "INSULAR",
+      "province": "Bioko Sur",
+      "district": "Luba",
+      "city": "Luba",
+      "facility_type": "CLINIC",
+      "reference_level": "DISTRICT_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [
+          "+240333092666"
+        ],
+        "website": null
+      },
+      "address_note": "Indicado como Bioko Sur (Luba).",
+      "data_quality": {
+        "missing": [
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "id": 1767226682496,
+      "facility_id": "CLINICA_SANTA_ISABEL_II_MALABO",
+      "name": "Clínica Santa Isabel II",
+      "region": "INSULAR",
+      "province": "Bioko Norte",
+      "district": "Malabo",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [
+          "+240333092666"
+        ],
+        "website": null
+      },
+      "address_note": "s/n Parque de las Aves de Africa",
+      "data_quality": {
+        "missing": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": 1767226682142,
+      "facility_id": "CLINICA_LA_PAZ_BATA",
+      "name": "Clínica La Paz",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "PRIVATE_REFERENCE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT",
+        "SPECIALIST_CARE"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": "Página web (no especificada)"
+      },
+      "address_note": "Buenas instalaciones, de referencia en la zona.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website_url_exact"
+        ]
+      }
+    },
+    {
+      "id": 1767226682158,
+      "facility_id": "CS_MARIA_RAFOLS_BATA_SUR",
+      "name": "Centros de salud «María Rafols»",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "FAITH_BASED",
+      "services": [
+        "FIRST_AID",
+        "LAB_DIAGNOSTICS",
+        "TROPICAL_DISEASES"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Bata Sur; atendido por religiosas españolas.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website"
+        ]
+      }
+    },
+    {
+      "id": 1767226682561,
+      "facility_id": "CS_MARIA_GAY_BATA_CENTRO",
+      "name": "Centros de salud «María Gay»",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "FAITH_BASED",
+      "services": [
+        "FIRST_AID",
+        "LAB_DIAGNOSTICS",
+        "TROPICAL_DISEASES"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Bata Centro; atendido por religiosas españolas.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website"
+        ]
+      }
+    },
+    {
+      "id": 1767226681885,
+      "facility_id": "CS_LA_LIBERTAD_BATA_NORTE",
+      "name": "Centros de salud «la Libertad»",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "FAITH_BASED",
+      "services": [
+        "FIRST_AID",
+        "LAB_DIAGNOSTICS",
+        "TROPICAL_DISEASES"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Bata Norte; atendido por religiosas españolas.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website"
+        ]
+      }
+    },
+    {
+      "id": 1767226682206,
+      "facility_id": "HOSP_GENERAL_LITORAL_BATA",
+      "name": "Hospital General Litoral Bata",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HOSPITAL",
+      "reference_level": "GENERAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "SURGERY",
+        "REFERRALS"
+      ],
+      "contacts": {
+        "phones": [
+          "+240333082101",
+          "+240333082290"
+        ],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "id": 1767226682640,
+      "facility_id": "HOSP_REGIONAL_BATA_CUBANO_ESPANOL",
+      "name": "Hospital Regional (Bata)",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HOSPITAL",
+      "reference_level": "REGIONAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "REFERRALS"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Se indica que trabajan médicos cubanos y españoles.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address",
+          "official_name_confirm"
+        ]
+      }
+    },
+    {
+      "id": 1767226681979,
+      "facility_id": "HOSP_REGIONAL_DR_DAMIAN_ROKU_EPITIE_MONANGA",
+      "name": "Hospital Regional «Dr Damián Roku Epitie Monanga»",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HOSPITAL",
+      "reference_level": "REGIONAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "REFERRALS"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "given": "Patient1",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 2,
+      "given": "Patient2",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 3,
+      "given": "Patient3",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 4,
+      "given": "Patient4",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 5,
+      "given": "Patient5",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 6,
+      "given": "Patient6",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 7,
+      "given": "Patient7",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 8,
+      "given": "Patient8",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 9,
+      "given": "Patient9",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 10,
+      "given": "Patient10",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 11,
+      "given": "Patient11",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 12,
+      "given": "Patient12",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 13,
+      "given": "Patient13",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 14,
+      "given": "Patient14",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 15,
+      "given": "Patient15",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 16,
+      "given": "Patient16",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 17,
+      "given": "Patient17",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 18,
+      "given": "Patient18",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 19,
+      "given": "Patient19",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 20,
+      "given": "Patient20",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 21,
+      "given": "Patient21",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 22,
+      "given": "Patient22",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 23,
+      "given": "Patient23",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 24,
+      "given": "Patient24",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 25,
+      "given": "Patient25",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 26,
+      "given": "Patient26",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 27,
+      "given": "Patient27",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 28,
+      "given": "Patient28",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 29,
+      "given": "Patient29",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 30,
+      "given": "Patient30",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 31,
+      "given": "Patient31",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 32,
+      "given": "Patient32",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 33,
+      "given": "Patient33",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 34,
+      "given": "Patient34",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 35,
+      "given": "Patient35",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 36,
+      "given": "Patient36",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 37,
+      "given": "Patient37",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 38,
+      "given": "Patient38",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 39,
+      "given": "Patient39",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 40,
+      "given": "Patient40",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 41,
+      "given": "Patient41",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 42,
+      "given": "Patient42",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 43,
+      "given": "Patient43",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 44,
+      "given": "Patient44",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 45,
+      "given": "Patient45",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 46,
+      "given": "Patient46",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 47,
+      "given": "Patient47",
+      "family": "Demo",
+      "facility_id": 3
+    },
+    {
+      "id": 48,
+      "given": "Patient48",
+      "family": "Demo",
+      "facility_id": 1
+    },
+    {
+      "id": 49,
+      "given": "Patient49",
+      "family": "Demo",
+      "facility_id": 2
+    },
+    {
+      "id": 50,
+      "given": "Patient50",
+      "family": "Demo",
+      "facility_id": 3
+    }
+  ],
+  "visits": [
+    {
+      "id": 1767226681905,
+      "patient_id": 1,
+      "facility_id": 1,
+      "date": "2026-01-01T00:18:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681906,
+      "patient_id": 2,
+      "facility_id": 2,
+      "date": "2026-01-01T00:03:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681907,
+      "patient_id": 3,
+      "facility_id": 3,
+      "date": "2025-12-31T23:49:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681908,
+      "patient_id": 4,
+      "facility_id": 1,
+      "date": "2025-12-31T23:34:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681909,
+      "patient_id": 5,
+      "facility_id": 2,
+      "date": "2025-12-31T23:20:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681910,
+      "patient_id": 6,
+      "facility_id": 3,
+      "date": "2025-12-31T23:06:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681911,
+      "patient_id": 7,
+      "facility_id": 1,
+      "date": "2025-12-31T22:51:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681912,
+      "patient_id": 8,
+      "facility_id": 2,
+      "date": "2025-12-31T22:37:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681913,
+      "patient_id": 9,
+      "facility_id": 3,
+      "date": "2025-12-31T22:22:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681914,
+      "patient_id": 10,
+      "facility_id": 1,
+      "date": "2025-12-31T22:08:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681915,
+      "patient_id": 11,
+      "facility_id": 2,
+      "date": "2025-12-31T21:54:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681916,
+      "patient_id": 12,
+      "facility_id": 3,
+      "date": "2025-12-31T21:39:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681917,
+      "patient_id": 13,
+      "facility_id": 1,
+      "date": "2025-12-31T21:25:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681918,
+      "patient_id": 14,
+      "facility_id": 2,
+      "date": "2025-12-31T21:10:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681919,
+      "patient_id": 15,
+      "facility_id": 3,
+      "date": "2025-12-31T20:56:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681920,
+      "patient_id": 16,
+      "facility_id": 1,
+      "date": "2025-12-31T20:42:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681921,
+      "patient_id": 17,
+      "facility_id": 2,
+      "date": "2025-12-31T20:27:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681922,
+      "patient_id": 18,
+      "facility_id": 3,
+      "date": "2025-12-31T20:13:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681923,
+      "patient_id": 19,
+      "facility_id": 1,
+      "date": "2025-12-31T19:58:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681924,
+      "patient_id": 20,
+      "facility_id": 2,
+      "date": "2025-12-31T19:44:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681925,
+      "patient_id": 21,
+      "facility_id": 3,
+      "date": "2025-12-31T19:30:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681926,
+      "patient_id": 22,
+      "facility_id": 1,
+      "date": "2025-12-31T19:15:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681927,
+      "patient_id": 23,
+      "facility_id": 2,
+      "date": "2025-12-31T19:01:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681928,
+      "patient_id": 24,
+      "facility_id": 3,
+      "date": "2025-12-31T18:46:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681929,
+      "patient_id": 25,
+      "facility_id": 1,
+      "date": "2025-12-31T18:32:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681930,
+      "patient_id": 26,
+      "facility_id": 2,
+      "date": "2025-12-31T18:18:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681931,
+      "patient_id": 27,
+      "facility_id": 3,
+      "date": "2025-12-31T18:03:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681932,
+      "patient_id": 28,
+      "facility_id": 1,
+      "date": "2025-12-31T17:49:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681933,
+      "patient_id": 29,
+      "facility_id": 2,
+      "date": "2025-12-31T17:34:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681934,
+      "patient_id": 30,
+      "facility_id": 3,
+      "date": "2025-12-31T17:20:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681935,
+      "patient_id": 31,
+      "facility_id": 1,
+      "date": "2025-12-31T17:06:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681936,
+      "patient_id": 32,
+      "facility_id": 2,
+      "date": "2025-12-31T16:51:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681937,
+      "patient_id": 33,
+      "facility_id": 3,
+      "date": "2025-12-31T16:37:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681938,
+      "patient_id": 34,
+      "facility_id": 1,
+      "date": "2025-12-31T16:22:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681939,
+      "patient_id": 35,
+      "facility_id": 2,
+      "date": "2025-12-31T16:08:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681940,
+      "patient_id": 36,
+      "facility_id": 3,
+      "date": "2025-12-31T15:54:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681941,
+      "patient_id": 37,
+      "facility_id": 1,
+      "date": "2025-12-31T15:39:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681942,
+      "patient_id": 38,
+      "facility_id": 2,
+      "date": "2025-12-31T15:25:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681943,
+      "patient_id": 39,
+      "facility_id": 3,
+      "date": "2025-12-31T15:10:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681944,
+      "patient_id": 40,
+      "facility_id": 1,
+      "date": "2025-12-31T14:56:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681945,
+      "patient_id": 41,
+      "facility_id": 2,
+      "date": "2025-12-31T14:42:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681946,
+      "patient_id": 42,
+      "facility_id": 3,
+      "date": "2025-12-31T14:27:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681947,
+      "patient_id": 43,
+      "facility_id": 1,
+      "date": "2025-12-31T14:13:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681948,
+      "patient_id": 44,
+      "facility_id": 2,
+      "date": "2025-12-31T13:58:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681949,
+      "patient_id": 45,
+      "facility_id": 3,
+      "date": "2025-12-31T13:44:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681950,
+      "patient_id": 46,
+      "facility_id": 1,
+      "date": "2025-12-31T13:30:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681951,
+      "patient_id": 47,
+      "facility_id": 2,
+      "date": "2025-12-31T13:15:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681952,
+      "patient_id": 48,
+      "facility_id": 3,
+      "date": "2025-12-31T13:01:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681953,
+      "patient_id": 49,
+      "facility_id": 1,
+      "date": "2025-12-31T12:46:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681954,
+      "patient_id": 50,
+      "facility_id": 2,
+      "date": "2025-12-31T12:32:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681955,
+      "patient_id": 1,
+      "facility_id": 3,
+      "date": "2025-12-31T12:18:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681956,
+      "patient_id": 2,
+      "facility_id": 1,
+      "date": "2025-12-31T12:03:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681957,
+      "patient_id": 3,
+      "facility_id": 2,
+      "date": "2025-12-31T11:49:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681958,
+      "patient_id": 4,
+      "facility_id": 3,
+      "date": "2025-12-31T11:34:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681959,
+      "patient_id": 5,
+      "facility_id": 1,
+      "date": "2025-12-31T11:20:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681960,
+      "patient_id": 6,
+      "facility_id": 2,
+      "date": "2025-12-31T11:06:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681961,
+      "patient_id": 7,
+      "facility_id": 3,
+      "date": "2025-12-31T10:51:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681962,
+      "patient_id": 8,
+      "facility_id": 1,
+      "date": "2025-12-31T10:37:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681963,
+      "patient_id": 9,
+      "facility_id": 2,
+      "date": "2025-12-31T10:22:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681964,
+      "patient_id": 10,
+      "facility_id": 3,
+      "date": "2025-12-31T10:08:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681965,
+      "patient_id": 11,
+      "facility_id": 1,
+      "date": "2025-12-31T09:54:01.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681966,
+      "patient_id": 12,
+      "facility_id": 2,
+      "date": "2025-12-31T09:39:37.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681967,
+      "patient_id": 13,
+      "facility_id": 3,
+      "date": "2025-12-31T09:25:13.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681968,
+      "patient_id": 14,
+      "facility_id": 1,
+      "date": "2025-12-31T09:10:49.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681969,
+      "patient_id": 15,
+      "facility_id": 2,
+      "date": "2025-12-31T08:56:25.905Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681971,
+      "patient_id": 16,
+      "facility_id": 3,
+      "date": "2025-12-31T08:42:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681972,
+      "patient_id": 17,
+      "facility_id": 1,
+      "date": "2025-12-31T08:27:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681973,
+      "patient_id": 18,
+      "facility_id": 2,
+      "date": "2025-12-31T08:13:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681974,
+      "patient_id": 19,
+      "facility_id": 3,
+      "date": "2025-12-31T07:58:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681975,
+      "patient_id": 20,
+      "facility_id": 1,
+      "date": "2025-12-31T07:44:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681976,
+      "patient_id": 21,
+      "facility_id": 2,
+      "date": "2025-12-31T07:30:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681977,
+      "patient_id": 22,
+      "facility_id": 3,
+      "date": "2025-12-31T07:15:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681978,
+      "patient_id": 23,
+      "facility_id": 1,
+      "date": "2025-12-31T07:01:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681979,
+      "patient_id": 24,
+      "facility_id": 2,
+      "date": "2025-12-31T06:46:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681980,
+      "patient_id": 25,
+      "facility_id": 3,
+      "date": "2025-12-31T06:32:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681981,
+      "patient_id": 26,
+      "facility_id": 1,
+      "date": "2025-12-31T06:18:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681982,
+      "patient_id": 27,
+      "facility_id": 2,
+      "date": "2025-12-31T06:03:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681983,
+      "patient_id": 28,
+      "facility_id": 3,
+      "date": "2025-12-31T05:49:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681984,
+      "patient_id": 29,
+      "facility_id": 1,
+      "date": "2025-12-31T05:34:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681985,
+      "patient_id": 30,
+      "facility_id": 2,
+      "date": "2025-12-31T05:20:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681986,
+      "patient_id": 31,
+      "facility_id": 3,
+      "date": "2025-12-31T05:06:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681987,
+      "patient_id": 32,
+      "facility_id": 1,
+      "date": "2025-12-31T04:51:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681988,
+      "patient_id": 33,
+      "facility_id": 2,
+      "date": "2025-12-31T04:37:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681989,
+      "patient_id": 34,
+      "facility_id": 3,
+      "date": "2025-12-31T04:22:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681990,
+      "patient_id": 35,
+      "facility_id": 1,
+      "date": "2025-12-31T04:08:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681991,
+      "patient_id": 36,
+      "facility_id": 2,
+      "date": "2025-12-31T03:54:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681992,
+      "patient_id": 37,
+      "facility_id": 3,
+      "date": "2025-12-31T03:39:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681993,
+      "patient_id": 38,
+      "facility_id": 1,
+      "date": "2025-12-31T03:25:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681994,
+      "patient_id": 39,
+      "facility_id": 2,
+      "date": "2025-12-31T03:10:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681995,
+      "patient_id": 40,
+      "facility_id": 3,
+      "date": "2025-12-31T02:56:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681996,
+      "patient_id": 41,
+      "facility_id": 1,
+      "date": "2025-12-31T02:42:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681997,
+      "patient_id": 42,
+      "facility_id": 2,
+      "date": "2025-12-31T02:27:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681998,
+      "patient_id": 43,
+      "facility_id": 3,
+      "date": "2025-12-31T02:13:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226681999,
+      "patient_id": 44,
+      "facility_id": 1,
+      "date": "2025-12-31T01:58:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682000,
+      "patient_id": 45,
+      "facility_id": 2,
+      "date": "2025-12-31T01:44:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682001,
+      "patient_id": 46,
+      "facility_id": 3,
+      "date": "2025-12-31T01:30:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682002,
+      "patient_id": 47,
+      "facility_id": 1,
+      "date": "2025-12-31T01:15:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682003,
+      "patient_id": 48,
+      "facility_id": 2,
+      "date": "2025-12-31T01:01:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682004,
+      "patient_id": 49,
+      "facility_id": 3,
+      "date": "2025-12-31T00:46:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682005,
+      "patient_id": 50,
+      "facility_id": 1,
+      "date": "2025-12-31T00:32:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682006,
+      "patient_id": 1,
+      "facility_id": 2,
+      "date": "2025-12-31T00:18:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682007,
+      "patient_id": 2,
+      "facility_id": 3,
+      "date": "2025-12-31T00:03:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682008,
+      "patient_id": 3,
+      "facility_id": 1,
+      "date": "2025-12-30T23:49:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682009,
+      "patient_id": 4,
+      "facility_id": 2,
+      "date": "2025-12-30T23:34:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682010,
+      "patient_id": 5,
+      "facility_id": 3,
+      "date": "2025-12-30T23:20:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682011,
+      "patient_id": 6,
+      "facility_id": 1,
+      "date": "2025-12-30T23:06:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682012,
+      "patient_id": 7,
+      "facility_id": 2,
+      "date": "2025-12-30T22:51:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682013,
+      "patient_id": 8,
+      "facility_id": 3,
+      "date": "2025-12-30T22:37:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682014,
+      "patient_id": 9,
+      "facility_id": 1,
+      "date": "2025-12-30T22:22:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682015,
+      "patient_id": 10,
+      "facility_id": 2,
+      "date": "2025-12-30T22:08:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682016,
+      "patient_id": 11,
+      "facility_id": 3,
+      "date": "2025-12-30T21:54:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682017,
+      "patient_id": 12,
+      "facility_id": 1,
+      "date": "2025-12-30T21:39:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682018,
+      "patient_id": 13,
+      "facility_id": 2,
+      "date": "2025-12-30T21:25:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682019,
+      "patient_id": 14,
+      "facility_id": 3,
+      "date": "2025-12-30T21:10:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682020,
+      "patient_id": 15,
+      "facility_id": 1,
+      "date": "2025-12-30T20:56:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682021,
+      "patient_id": 16,
+      "facility_id": 2,
+      "date": "2025-12-30T20:42:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682022,
+      "patient_id": 17,
+      "facility_id": 3,
+      "date": "2025-12-30T20:27:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682023,
+      "patient_id": 18,
+      "facility_id": 1,
+      "date": "2025-12-30T20:13:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682024,
+      "patient_id": 19,
+      "facility_id": 2,
+      "date": "2025-12-30T19:58:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682025,
+      "patient_id": 20,
+      "facility_id": 3,
+      "date": "2025-12-30T19:44:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682026,
+      "patient_id": 21,
+      "facility_id": 1,
+      "date": "2025-12-30T19:30:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682027,
+      "patient_id": 22,
+      "facility_id": 2,
+      "date": "2025-12-30T19:15:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682028,
+      "patient_id": 23,
+      "facility_id": 3,
+      "date": "2025-12-30T19:01:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682029,
+      "patient_id": 24,
+      "facility_id": 1,
+      "date": "2025-12-30T18:46:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682030,
+      "patient_id": 25,
+      "facility_id": 2,
+      "date": "2025-12-30T18:32:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682031,
+      "patient_id": 26,
+      "facility_id": 3,
+      "date": "2025-12-30T18:18:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682032,
+      "patient_id": 27,
+      "facility_id": 1,
+      "date": "2025-12-30T18:03:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682033,
+      "patient_id": 28,
+      "facility_id": 2,
+      "date": "2025-12-30T17:49:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682034,
+      "patient_id": 29,
+      "facility_id": 3,
+      "date": "2025-12-30T17:34:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682035,
+      "patient_id": 30,
+      "facility_id": 1,
+      "date": "2025-12-30T17:20:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682036,
+      "patient_id": 31,
+      "facility_id": 2,
+      "date": "2025-12-30T17:06:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682037,
+      "patient_id": 32,
+      "facility_id": 3,
+      "date": "2025-12-30T16:51:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682038,
+      "patient_id": 33,
+      "facility_id": 1,
+      "date": "2025-12-30T16:37:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682039,
+      "patient_id": 34,
+      "facility_id": 2,
+      "date": "2025-12-30T16:22:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682040,
+      "patient_id": 35,
+      "facility_id": 3,
+      "date": "2025-12-30T16:08:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682041,
+      "patient_id": 36,
+      "facility_id": 1,
+      "date": "2025-12-30T15:54:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682042,
+      "patient_id": 37,
+      "facility_id": 2,
+      "date": "2025-12-30T15:39:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682043,
+      "patient_id": 38,
+      "facility_id": 3,
+      "date": "2025-12-30T15:25:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682044,
+      "patient_id": 39,
+      "facility_id": 1,
+      "date": "2025-12-30T15:10:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682045,
+      "patient_id": 40,
+      "facility_id": 2,
+      "date": "2025-12-30T14:56:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682046,
+      "patient_id": 41,
+      "facility_id": 3,
+      "date": "2025-12-30T14:42:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682047,
+      "patient_id": 42,
+      "facility_id": 1,
+      "date": "2025-12-30T14:27:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682048,
+      "patient_id": 43,
+      "facility_id": 2,
+      "date": "2025-12-30T14:13:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682049,
+      "patient_id": 44,
+      "facility_id": 3,
+      "date": "2025-12-30T13:58:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682050,
+      "patient_id": 45,
+      "facility_id": 1,
+      "date": "2025-12-30T13:44:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682051,
+      "patient_id": 46,
+      "facility_id": 2,
+      "date": "2025-12-30T13:30:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682052,
+      "patient_id": 47,
+      "facility_id": 3,
+      "date": "2025-12-30T13:15:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682053,
+      "patient_id": 48,
+      "facility_id": 1,
+      "date": "2025-12-30T13:01:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682054,
+      "patient_id": 49,
+      "facility_id": 2,
+      "date": "2025-12-30T12:46:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682055,
+      "patient_id": 50,
+      "facility_id": 3,
+      "date": "2025-12-30T12:32:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682056,
+      "patient_id": 1,
+      "facility_id": 1,
+      "date": "2025-12-30T12:18:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682057,
+      "patient_id": 2,
+      "facility_id": 2,
+      "date": "2025-12-30T12:03:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682058,
+      "patient_id": 3,
+      "facility_id": 3,
+      "date": "2025-12-30T11:49:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682059,
+      "patient_id": 4,
+      "facility_id": 1,
+      "date": "2025-12-30T11:34:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682060,
+      "patient_id": 5,
+      "facility_id": 2,
+      "date": "2025-12-30T11:20:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682061,
+      "patient_id": 6,
+      "facility_id": 3,
+      "date": "2025-12-30T11:06:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682062,
+      "patient_id": 7,
+      "facility_id": 1,
+      "date": "2025-12-30T10:51:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682063,
+      "patient_id": 8,
+      "facility_id": 2,
+      "date": "2025-12-30T10:37:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682064,
+      "patient_id": 9,
+      "facility_id": 3,
+      "date": "2025-12-30T10:22:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682065,
+      "patient_id": 10,
+      "facility_id": 1,
+      "date": "2025-12-30T10:08:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682066,
+      "patient_id": 11,
+      "facility_id": 2,
+      "date": "2025-12-30T09:54:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682067,
+      "patient_id": 12,
+      "facility_id": 3,
+      "date": "2025-12-30T09:39:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682068,
+      "patient_id": 13,
+      "facility_id": 1,
+      "date": "2025-12-30T09:25:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682069,
+      "patient_id": 14,
+      "facility_id": 2,
+      "date": "2025-12-30T09:10:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682070,
+      "patient_id": 15,
+      "facility_id": 3,
+      "date": "2025-12-30T08:56:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682071,
+      "patient_id": 16,
+      "facility_id": 1,
+      "date": "2025-12-30T08:42:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682072,
+      "patient_id": 17,
+      "facility_id": 2,
+      "date": "2025-12-30T08:27:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682073,
+      "patient_id": 18,
+      "facility_id": 3,
+      "date": "2025-12-30T08:13:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682074,
+      "patient_id": 19,
+      "facility_id": 1,
+      "date": "2025-12-30T07:58:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682075,
+      "patient_id": 20,
+      "facility_id": 2,
+      "date": "2025-12-30T07:44:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682076,
+      "patient_id": 21,
+      "facility_id": 3,
+      "date": "2025-12-30T07:30:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682077,
+      "patient_id": 22,
+      "facility_id": 1,
+      "date": "2025-12-30T07:15:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682078,
+      "patient_id": 23,
+      "facility_id": 2,
+      "date": "2025-12-30T07:01:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682079,
+      "patient_id": 24,
+      "facility_id": 3,
+      "date": "2025-12-30T06:46:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682080,
+      "patient_id": 25,
+      "facility_id": 1,
+      "date": "2025-12-30T06:32:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682081,
+      "patient_id": 26,
+      "facility_id": 2,
+      "date": "2025-12-30T06:18:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682082,
+      "patient_id": 27,
+      "facility_id": 3,
+      "date": "2025-12-30T06:03:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682083,
+      "patient_id": 28,
+      "facility_id": 1,
+      "date": "2025-12-30T05:49:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682084,
+      "patient_id": 29,
+      "facility_id": 2,
+      "date": "2025-12-30T05:34:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682085,
+      "patient_id": 30,
+      "facility_id": 3,
+      "date": "2025-12-30T05:20:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682086,
+      "patient_id": 31,
+      "facility_id": 1,
+      "date": "2025-12-30T05:06:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682087,
+      "patient_id": 32,
+      "facility_id": 2,
+      "date": "2025-12-30T04:51:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682088,
+      "patient_id": 33,
+      "facility_id": 3,
+      "date": "2025-12-30T04:37:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682089,
+      "patient_id": 34,
+      "facility_id": 1,
+      "date": "2025-12-30T04:22:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682090,
+      "patient_id": 35,
+      "facility_id": 2,
+      "date": "2025-12-30T04:08:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682091,
+      "patient_id": 36,
+      "facility_id": 3,
+      "date": "2025-12-30T03:54:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682092,
+      "patient_id": 37,
+      "facility_id": 1,
+      "date": "2025-12-30T03:39:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682093,
+      "patient_id": 38,
+      "facility_id": 2,
+      "date": "2025-12-30T03:25:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682094,
+      "patient_id": 39,
+      "facility_id": 3,
+      "date": "2025-12-30T03:10:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682095,
+      "patient_id": 40,
+      "facility_id": 1,
+      "date": "2025-12-30T02:56:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682096,
+      "patient_id": 41,
+      "facility_id": 2,
+      "date": "2025-12-30T02:42:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682097,
+      "patient_id": 42,
+      "facility_id": 3,
+      "date": "2025-12-30T02:27:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682098,
+      "patient_id": 43,
+      "facility_id": 1,
+      "date": "2025-12-30T02:13:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682099,
+      "patient_id": 44,
+      "facility_id": 2,
+      "date": "2025-12-30T01:58:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682100,
+      "patient_id": 45,
+      "facility_id": 3,
+      "date": "2025-12-30T01:44:25.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682101,
+      "patient_id": 46,
+      "facility_id": 1,
+      "date": "2025-12-30T01:30:01.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682102,
+      "patient_id": 47,
+      "facility_id": 2,
+      "date": "2025-12-30T01:15:37.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682103,
+      "patient_id": 48,
+      "facility_id": 3,
+      "date": "2025-12-30T01:01:13.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682104,
+      "patient_id": 49,
+      "facility_id": 1,
+      "date": "2025-12-30T00:46:49.906Z",
+      "diagnosis": "Routine"
+    },
+    {
+      "id": 1767226682105,
+      "patient_id": 50,
+      "facility_id": 2,
+      "date": "2025-12-30T00:32:25.906Z",
+      "diagnosis": "Routine"
+    }
+  ],
+  "stock_items": [
+    {
+      "id": 1,
+      "facility_id": 1,
+      "name": "Paracetamol",
+      "quantity": 100,
+      "expiry": "2027-01-01T00:18:01.906Z"
+    },
+    {
+      "id": 2,
+      "facility_id": 2,
+      "name": "Oxytocin",
+      "quantity": 0,
+      "expiry": "2026-01-31T00:18:01.906Z"
+    },
+    {
+      "id": 3,
+      "facility_id": 3,
+      "name": "Malaria RDT",
+      "quantity": 20,
+      "expiry": "2026-04-01T00:18:01.906Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "facility_id": 3,
+      "message": "Spike in febrile illness",
+      "level": "HIGH",
+      "date": "2025-12-29T00:18:01.906Z"
+    }
+  ],
+  "audit_logs": []
+}

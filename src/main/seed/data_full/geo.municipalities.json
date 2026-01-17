@@ -1,0 +1,268 @@
+[
+  {
+    "municipality_id": "MUN_DIST_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE",
+    "name": "San Antonio de Pale",
+    "district_id": "DIST_ANNOBON_SAN_ANTONIO_DE_PALE",
+    "province_id": "PROV_ANNOBON",
+    "region": "INSULAR"
+  },
+  {
+    "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+    "name": "Malabo",
+    "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+    "province_id": "PROV_BIOKO_DEL_NORTE",
+    "region": "INSULAR"
+  },
+  {
+    "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_BANEY_BANEY",
+    "name": "Baney",
+    "district_id": "DIST_BIOKO_DEL_NORTE_BANEY",
+    "province_id": "PROV_BIOKO_DEL_NORTE",
+    "region": "INSULAR"
+  },
+  {
+    "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_BANEY_REBOLA",
+    "name": "Rebola",
+    "district_id": "DIST_BIOKO_DEL_NORTE_BANEY",
+    "province_id": "PROV_BIOKO_DEL_NORTE",
+    "region": "INSULAR"
+  },
+  {
+    "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_BATETE",
+    "name": "Batete",
+    "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+    "province_id": "PROV_BIOKO_DEL_SUR",
+    "region": "INSULAR"
+  },
+  {
+    "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_LUBA",
+    "name": "Luba",
+    "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+    "province_id": "PROV_BIOKO_DEL_SUR",
+    "region": "INSULAR"
+  },
+  {
+    "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_MOKA",
+    "name": "Moka",
+    "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+    "province_id": "PROV_BIOKO_DEL_SUR",
+    "region": "INSULAR"
+  },
+  {
+    "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_RIABA_RIABA",
+    "name": "Riaba",
+    "district_id": "DIST_BIOKO_DEL_SUR_RIABA",
+    "province_id": "PROV_BIOKO_DEL_SUR",
+    "region": "INSULAR"
+  },
+  {
+    "municipality_id": "MUN_DIST_CENTRO_SUR_AKURENAM_AKURENAM",
+    "name": "Akurenam",
+    "district_id": "DIST_CENTRO_SUR_AKURENAM",
+    "province_id": "PROV_CENTRO_SUR",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_CENTRO_SUR_EVINAYONG_BICURGA",
+    "name": "Bicurga",
+    "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+    "province_id": "PROV_CENTRO_SUR",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_CENTRO_SUR_EVINAYONG_EVINAYONG",
+    "name": "Evinayong",
+    "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+    "province_id": "PROV_CENTRO_SUR",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_CENTRO_SUR_EVINAYONG_TEGUETE",
+    "name": "Teguete",
+    "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+    "province_id": "PROV_CENTRO_SUR",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NIEFANG",
+    "name": "Niefang",
+    "district_id": "DIST_CENTRO_SUR_NIEFANG",
+    "province_id": "PROV_CENTRO_SUR",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NKIMI",
+    "name": "Nkimi",
+    "district_id": "DIST_CENTRO_SUR_NIEFANG",
+    "province_id": "PROV_CENTRO_SUR",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NKUMEKIEN",
+    "name": "Nkumekien",
+    "district_id": "DIST_CENTRO_SUR_NIEFANG",
+    "province_id": "PROV_CENTRO_SUR",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_DJIBLOHO_OYALA_OYALA",
+    "name": "Oyala",
+    "district_id": "DIST_DJIBLOHO_OYALA",
+    "province_id": "PROV_DJIBLOHO",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_DJIBLOHO_OYALA_MEBERE",
+    "name": "Mebere",
+    "district_id": "DIST_DJIBLOHO_OYALA",
+    "province_id": "PROV_DJIBLOHO",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_KIE_NTEM_EBIBEYIN_BIDJABIDJAN",
+    "name": "Bidjabidjan",
+    "district_id": "DIST_KIE_NTEM_EBIBEYIN",
+    "province_id": "PROV_KIE_NTEM",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_KIE_NTEM_EBIBEYIN_EBIBEYIN",
+    "name": "Ebibeyin",
+    "district_id": "DIST_KIE_NTEM_EBIBEYIN",
+    "province_id": "PROV_KIE_NTEM",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_KIE_NTEM_MICOMISENG_MICOMISENG",
+    "name": "Micomiseng",
+    "district_id": "DIST_KIE_NTEM_MICOMISENG",
+    "province_id": "PROV_KIE_NTEM",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_KIE_NTEM_MICOMISENG_NCUE",
+    "name": "Ncue",
+    "district_id": "DIST_KIE_NTEM_MICOMISENG",
+    "province_id": "PROV_KIE_NTEM",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_KIE_NTEM_MICOMISENG_NSANG",
+    "name": "Nsang",
+    "district_id": "DIST_KIE_NTEM_MICOMISENG",
+    "province_id": "PROV_KIE_NTEM",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_KIE_NTEM_NSOK_NSOMO_NSOK_NSOMO",
+    "name": "Nsok-Nsomo",
+    "district_id": "DIST_KIE_NTEM_NSOK_NSOMO",
+    "province_id": "PROV_KIE_NTEM",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+    "name": "Bata",
+    "district_id": "DIST_LITORAL_BATA",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_LITORAL_BATA_MACHINDA",
+    "name": "Machinda",
+    "district_id": "DIST_LITORAL_BATA",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_LITORAL_BATA_RIO_CAMPO",
+    "name": "Rio Campo",
+    "district_id": "DIST_LITORAL_BATA",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_LITORAL_MBINI_BITICA",
+    "name": "Bitica",
+    "district_id": "DIST_LITORAL_MBINI",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_LITORAL_MBINI_MBINI",
+    "name": "Mbini",
+    "district_id": "DIST_LITORAL_MBINI",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_LITORAL_COGO_CABO_SAN_JUAN",
+    "name": "Cabo San Juan",
+    "district_id": "DIST_LITORAL_COGO",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_LITORAL_COGO_COGO",
+    "name": "Cogo",
+    "district_id": "DIST_LITORAL_COGO",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_LITORAL_COGO_CORISCO",
+    "name": "Corisco",
+    "district_id": "DIST_LITORAL_COGO",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_WELE_NZAS_ACONIBE_ACONIBE",
+    "name": "Aconibe",
+    "district_id": "DIST_WELE_NZAS_ACONIBE",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_WELE_NZAS_ANISOK_ANISOK",
+    "name": "Anisok",
+    "district_id": "DIST_WELE_NZAS_ANISOK",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_WELE_NZAS_ANISOK_AYENE",
+    "name": "Ayene",
+    "district_id": "DIST_WELE_NZAS_ANISOK",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MENGOMEYEN",
+    "name": "Mengomeyen",
+    "district_id": "DIST_WELE_NZAS_MONGOMO",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MONGOMO",
+    "name": "Mongomo",
+    "district_id": "DIST_WELE_NZAS_MONGOMO",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_NZANGAYONG",
+    "name": "Nzangayong",
+    "district_id": "DIST_WELE_NZAS_MONGOMO",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  },
+  {
+    "municipality_id": "MUN_DIST_WELE_NZAS_NSORK_NSORK",
+    "name": "Nsork",
+    "district_id": "DIST_WELE_NZAS_NSORK",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  }
+]

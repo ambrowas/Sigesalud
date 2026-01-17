@@ -1,0 +1,28 @@
+﻿{
+  "version": "v1",
+  "records": [
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-25","tests_ordered":180,"tests_completed":170,"avg_turnaround_hours":9.2,"rejected_samples":4,"tests_by_category":{"RDT":80,"HEMATO":40,"BIOQ":30,"HIV":20,"TB":10}},
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-26","tests_ordered":190,"tests_completed":178,"avg_turnaround_hours":8.9,"rejected_samples":5,"tests_by_category":{"RDT":86,"HEMATO":42,"BIOQ":30,"HIV":20,"TB":10}},
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-27","tests_ordered":200,"tests_completed":188,"avg_turnaround_hours":8.4,"rejected_samples":6,"tests_by_category":{"RDT":90,"HEMATO":45,"BIOQ":33,"HIV":20,"TB":12}},
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-28","tests_ordered":210,"tests_completed":195,"avg_turnaround_hours":8.1,"rejected_samples":6,"tests_by_category":{"RDT":96,"HEMATO":46,"BIOQ":35,"HIV":21,"TB":12}},
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-29","tests_ordered":220,"tests_completed":204,"avg_turnaround_hours":7.8,"rejected_samples":7,"tests_by_category":{"RDT":100,"HEMATO":48,"BIOQ":36,"HIV":22,"TB":13}},
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-30","tests_ordered":230,"tests_completed":212,"avg_turnaround_hours":7.6,"rejected_samples":7,"tests_by_category":{"RDT":105,"HEMATO":50,"BIOQ":38,"HIV":22,"TB":13}},
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-31","tests_ordered":240,"tests_completed":222,"avg_turnaround_hours":7.4,"rejected_samples":8,"tests_by_category":{"RDT":110,"HEMATO":52,"BIOQ":40,"HIV":23,"TB":15}},
+
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-25","tests_ordered":140,"tests_completed":132,"avg_turnaround_hours":10.6,"rejected_samples":3,"tests_by_category":{"RDT":60,"HEMATO":30,"BIOQ":22,"HIV":15,"TB":5}},
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-26","tests_ordered":150,"tests_completed":139,"avg_turnaround_hours":10.2,"rejected_samples":4,"tests_by_category":{"RDT":64,"HEMATO":31,"BIOQ":23,"HIV":16,"TB":5}},
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-27","tests_ordered":160,"tests_completed":148,"avg_turnaround_hours":9.9,"rejected_samples":4,"tests_by_category":{"RDT":68,"HEMATO":33,"BIOQ":24,"HIV":17,"TB":6}},
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-28","tests_ordered":165,"tests_completed":152,"avg_turnaround_hours":9.6,"rejected_samples":4,"tests_by_category":{"RDT":70,"HEMATO":34,"BIOQ":25,"HIV":18,"TB":6}},
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-29","tests_ordered":170,"tests_completed":156,"avg_turnaround_hours":9.4,"rejected_samples":5,"tests_by_category":{"RDT":72,"HEMATO":35,"BIOQ":26,"HIV":19,"TB":6}},
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-30","tests_ordered":175,"tests_completed":160,"avg_turnaround_hours":9.2,"rejected_samples":5,"tests_by_category":{"RDT":75,"HEMATO":36,"BIOQ":26,"HIV":19,"TB":7}},
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-31","tests_ordered":180,"tests_completed":165,"avg_turnaround_hours":9.0,"rejected_samples":5,"tests_by_category":{"RDT":78,"HEMATO":37,"BIOQ":27,"HIV":20,"TB":7}},
+
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-25","tests_ordered":90,"tests_completed":85,"avg_turnaround_hours":11.4,"rejected_samples":2,"tests_by_category":{"RDT":35,"HEMATO":20,"BIOQ":15,"HIV":10,"TB":5}},
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-26","tests_ordered":92,"tests_completed":86,"avg_turnaround_hours":11.2,"rejected_samples":2,"tests_by_category":{"RDT":36,"HEMATO":20,"BIOQ":15,"HIV":10,"TB":5}},
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-27","tests_ordered":95,"tests_completed":88,"avg_turnaround_hours":11.0,"rejected_samples":2,"tests_by_category":{"RDT":37,"HEMATO":21,"BIOQ":16,"HIV":10,"TB":6}},
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-28","tests_ordered":96,"tests_completed":89,"avg_turnaround_hours":10.8,"rejected_samples":2,"tests_by_category":{"RDT":37,"HEMATO":21,"BIOQ":16,"HIV":11,"TB":6}},
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-29","tests_ordered":98,"tests_completed":90,"avg_turnaround_hours":10.6,"rejected_samples":3,"tests_by_category":{"RDT":38,"HEMATO":22,"BIOQ":16,"HIV":11,"TB":6}},
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-30","tests_ordered":100,"tests_completed":92,"avg_turnaround_hours":10.4,"rejected_samples":3,"tests_by_category":{"RDT":39,"HEMATO":22,"BIOQ":17,"HIV":11,"TB":6}},
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-31","tests_ordered":102,"tests_completed":94,"avg_turnaround_hours":10.2,"rejected_samples":3,"tests_by_category":{"RDT":40,"HEMATO":22,"BIOQ":17,"HIV":11,"TB":6}}
+  ]
+}

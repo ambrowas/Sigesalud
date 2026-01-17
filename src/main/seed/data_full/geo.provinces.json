@@ -1,0 +1,42 @@
+[
+  {
+    "province_id": "PROV_ANNOBON",
+    "name": "Annobon",
+    "region": "INSULAR"
+  },
+  {
+    "province_id": "PROV_BIOKO_DEL_NORTE",
+    "name": "Bioko del Norte",
+    "region": "INSULAR"
+  },
+  {
+    "province_id": "PROV_BIOKO_DEL_SUR",
+    "name": "Bioko del Sur",
+    "region": "INSULAR"
+  },
+  {
+    "province_id": "PROV_CENTRO_SUR",
+    "name": "Centro Sur",
+    "region": "CONTINENTAL"
+  },
+  {
+    "province_id": "PROV_DJIBLOHO",
+    "name": "Djibloho",
+    "region": "CONTINENTAL"
+  },
+  {
+    "province_id": "PROV_KIE_NTEM",
+    "name": "Kie-Ntem",
+    "region": "CONTINENTAL"
+  },
+  {
+    "province_id": "PROV_LITORAL",
+    "name": "Litoral",
+    "region": "CONTINENTAL"
+  },
+  {
+    "province_id": "PROV_WELE_NZAS",
+    "name": "Wele-Nzas",
+    "region": "CONTINENTAL"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "dataset": "SIGESALUD-GE full demo dataset (v2: adds TB/HIV + extended disease catalog)",
+  "generated_on": "2026-01-07",
+  "random_seed": 240222,
+  "targets": {
+    "facilities": 133,
+    "patients": 8000,
+    "visits_2025": 70000,
+    "stock_records_monthly_2025": 61992,
+    "epi_records_weekly_2025": 5928,
+    "alerts": 145,
+    "staff_records": 133
+  }
+}

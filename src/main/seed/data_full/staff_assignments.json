@@ -1,0 +1,1071 @@
+{
+  "version": "v1",
+  "generated_on": "2025-12-31",
+  "record_count": 133,
+  "records": [
+    {
+      "facility_id": "HOSP_REGIONAL_MALABO",
+      "doctors": 36,
+      "nurses": 86,
+      "technicians": 19,
+      "support_staff": 23,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO",
+      "doctors": 22,
+      "nurses": 78,
+      "technicians": 17,
+      "support_staff": 24,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINICA_GUADALUPE_MALABO",
+      "doctors": 4,
+      "nurses": 2,
+      "technicians": 4,
+      "support_staff": 11,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "LAB_CASTRO_VERDE_ELA_NGUEMA",
+      "doctors": 1,
+      "nurses": 0,
+      "technicians": 9,
+      "support_staff": 15,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINICA_SANTA_ISABEL_LUBA",
+      "doctors": 5,
+      "nurses": 9,
+      "technicians": 5,
+      "support_staff": 13,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINICA_SANTA_ISABEL_II_MALABO",
+      "doctors": 4,
+      "nurses": 12,
+      "technicians": 5,
+      "support_staff": 24,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINICA_LA_PAZ_BATA",
+      "doctors": 6,
+      "nurses": 14,
+      "technicians": 2,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_MARIA_RAFOLS_BATA_SUR",
+      "doctors": 4,
+      "nurses": 16,
+      "technicians": 3,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_MARIA_GAY_BATA_CENTRO",
+      "doctors": 5,
+      "nurses": 9,
+      "technicians": 5,
+      "support_staff": 11,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_LA_LIBERTAD_BATA_NORTE",
+      "doctors": 5,
+      "nurses": 7,
+      "technicians": 4,
+      "support_staff": 23,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "HOSP_GENERAL_LITORAL_BATA",
+      "doctors": 24,
+      "nurses": 84,
+      "technicians": 29,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "HOSP_REGIONAL_BATA_CUBANO_ESPANOL",
+      "doctors": 17,
+      "nurses": 113,
+      "technicians": 22,
+      "support_staff": 21,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "HOSP_REGIONAL_DR_DAMIAN_ROKU_EPITIE_MONANGA",
+      "doctors": 27,
+      "nurses": 101,
+      "technicians": 29,
+      "support_staff": 8,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE_01",
+      "doctors": 2,
+      "nurses": 18,
+      "technicians": 1,
+      "support_staff": 10,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 1,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE_02",
+      "doctors": 0,
+      "nurses": 2,
+      "technicians": 0,
+      "support_staff": 5,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_NORTE_MALABO_MALABO_01",
+      "doctors": 3,
+      "nurses": 8,
+      "technicians": 2,
+      "support_staff": 22,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_NORTE_MALABO_MALABO_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 1,
+      "support_staff": 0,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_NORTE_BANEY_BANEY_01",
+      "doctors": 2,
+      "nurses": 7,
+      "technicians": 5,
+      "support_staff": 18,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_NORTE_BANEY_BANEY_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 1,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_NORTE_BANEY_BANEY_02",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 2,
+      "support_staff": 2,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_NORTE_BANEY_REBOLA_01",
+      "doctors": 2,
+      "nurses": 14,
+      "technicians": 1,
+      "support_staff": 6,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_NORTE_BANEY_REBOLA_01",
+      "doctors": 0,
+      "nurses": 1,
+      "technicians": 0,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_SUR_LUBA_BATETE_01",
+      "doctors": 5,
+      "nurses": 10,
+      "technicians": 4,
+      "support_staff": 7,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_SUR_LUBA_BATETE_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 1,
+      "support_staff": 0,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_SUR_LUBA_BATETE_02",
+      "doctors": 0,
+      "nurses": 2,
+      "technicians": 0,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_SUR_LUBA_LUBA_01",
+      "doctors": 5,
+      "nurses": 9,
+      "technicians": 5,
+      "support_staff": 25,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_SUR_LUBA_LUBA_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 1,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_SUR_LUBA_MOKA_01",
+      "doctors": 5,
+      "nurses": 13,
+      "technicians": 6,
+      "support_staff": 14,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_SUR_LUBA_MOKA_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 2,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_SUR_RIABA_RIABA_01",
+      "doctors": 3,
+      "nurses": 8,
+      "technicians": 4,
+      "support_staff": 19,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_SUR_RIABA_RIABA_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 1,
+      "support_staff": 5,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_AKURENAM_AKURENAM_01",
+      "doctors": 2,
+      "nurses": 18,
+      "technicians": 4,
+      "support_staff": 11,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_AKURENAM_AKURENAM_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 1,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_AKURENAM_AKURENAM_02",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 1,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_EVINAYONG_BICURGA_01",
+      "doctors": 2,
+      "nurses": 20,
+      "technicians": 5,
+      "support_staff": 14,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_EVINAYONG_BICURGA_01",
+      "doctors": 0,
+      "nurses": 1,
+      "technicians": 1,
+      "support_staff": 5,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_EVINAYONG_EVINAYONG_01",
+      "doctors": 3,
+      "nurses": 17,
+      "technicians": 5,
+      "support_staff": 25,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_EVINAYONG_EVINAYONG_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 2,
+      "support_staff": 0,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_EVINAYONG_EVINAYONG_02",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 1,
+      "support_staff": 5,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_EVINAYONG_TEGUETE_01",
+      "doctors": 4,
+      "nurses": 8,
+      "technicians": 4,
+      "support_staff": 11,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_EVINAYONG_TEGUETE_01",
+      "doctors": 0,
+      "nurses": 1,
+      "technicians": 1,
+      "support_staff": 2,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_NIEFANG_NIEFANG_01",
+      "doctors": 5,
+      "nurses": 6,
+      "technicians": 1,
+      "support_staff": 18,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NIEFANG_01",
+      "doctors": 0,
+      "nurses": 1,
+      "technicians": 1,
+      "support_staff": 2,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NIEFANG_02",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 2,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_NIEFANG_NKIMI_01",
+      "doctors": 5,
+      "nurses": 16,
+      "technicians": 6,
+      "support_staff": 13,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NKIMI_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 0,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NKIMI_02",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 1,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_NIEFANG_NKUMEKIEN_01",
+      "doctors": 1,
+      "nurses": 14,
+      "technicians": 5,
+      "support_staff": 16,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NKUMEKIEN_01",
+      "doctors": 0,
+      "nurses": 2,
+      "technicians": 0,
+      "support_staff": 2,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NKUMEKIEN_02",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 0,
+      "support_staff": 0,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_DJIBLOHO_OYALA_OYALA_01",
+      "doctors": 4,
+      "nurses": 13,
+      "technicians": 5,
+      "support_staff": 16,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_DJIBLOHO_OYALA_OYALA_01",
+      "doctors": 0,
+      "nurses": 2,
+      "technicians": 1,
+      "support_staff": 2,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_DJIBLOHO_OYALA_MEBERE_01",
+      "doctors": 3,
+      "nurses": 9,
+      "technicians": 3,
+      "support_staff": 9,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_DJIBLOHO_OYALA_MEBERE_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 1,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_EBIBEYIN_BIDJABIDJAN_01",
+      "doctors": 2,
+      "nurses": 13,
+      "technicians": 2,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_EBIBEYIN_BIDJABIDJAN_01",
+      "doctors": 0,
+      "nurses": 1,
+      "technicians": 1,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_EBIBEYIN_BIDJABIDJAN_02",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 1,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_EBIBEYIN_EBIBEYIN_01",
+      "doctors": 1,
+      "nurses": 13,
+      "technicians": 3,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_EBIBEYIN_EBIBEYIN_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 0,
+      "support_staff": 0,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_EBIBEYIN_EBIBEYIN_02",
+      "doctors": 0,
+      "nurses": 1,
+      "technicians": 0,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_MICOMISENG_MICOMISENG_01",
+      "doctors": 2,
+      "nurses": 11,
+      "technicians": 3,
+      "support_staff": 12,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_MICOMISENG_MICOMISENG_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 2,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_MICOMISENG_MICOMISENG_02",
+      "doctors": 0,
+      "nurses": 1,
+      "technicians": 0,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_MICOMISENG_NCUE_01",
+      "doctors": 1,
+      "nurses": 9,
+      "technicians": 5,
+      "support_staff": 22,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_MICOMISENG_NCUE_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 2,
+      "support_staff": 0,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_MICOMISENG_NSANG_01",
+      "doctors": 1,
+      "nurses": 12,
+      "technicians": 4,
+      "support_staff": 25,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_MICOMISENG_NSANG_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 1,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_NSOK_NSOMO_NSOK_NSOMO_01",
+      "doctors": 3,
+      "nurses": 14,
+      "technicians": 5,
+      "support_staff": 25,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_NSOK_NSOMO_NSOK_NSOMO_01",
+      "doctors": 0,
+      "nurses": 1,
+      "technicians": 1,
+      "support_staff": 5,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_NSOK_NSOMO_NSOK_NSOMO_02",
+      "doctors": 0,
+      "nurses": 2,
+      "technicians": 2,
+      "support_staff": 2,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_LITORAL_BATA_BATA_01",
+      "doctors": 4,
+      "nurses": 20,
+      "technicians": 1,
+      "support_staff": 18,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_BATA_BATA_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 2,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_LITORAL_BATA_MACHINDA_01",
+      "doctors": 2,
+      "nurses": 15,
+      "technicians": 5,
+      "support_staff": 21,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_BATA_MACHINDA_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 0,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_LITORAL_BATA_RIO_CAMPO_01",
+      "doctors": 4,
+      "nurses": 19,
+      "technicians": 1,
+      "support_staff": 5,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_BATA_RIO_CAMPO_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 0,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_BATA_RIO_CAMPO_02",
+      "doctors": 0,
+      "nurses": 2,
+      "technicians": 2,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_LITORAL_MBINI_BITICA_01",
+      "doctors": 3,
+      "nurses": 14,
+      "technicians": 6,
+      "support_staff": 6,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_MBINI_BITICA_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 2,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_MBINI_BITICA_02",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 2,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_LITORAL_MBINI_MBINI_01",
+      "doctors": 2,
+      "nurses": 12,
+      "technicians": 4,
+      "support_staff": 25,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_MBINI_MBINI_01",
+      "doctors": 0,
+      "nurses": 2,
+      "technicians": 1,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_LITORAL_COGO_CABO_SAN_JUAN_01",
+      "doctors": 4,
+      "nurses": 20,
+      "technicians": 3,
+      "support_staff": 6,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_COGO_CABO_SAN_JUAN_01",
+      "doctors": 0,
+      "nurses": 2,
+      "technicians": 0,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_COGO_CABO_SAN_JUAN_02",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 0,
+      "support_staff": 2,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_LITORAL_COGO_COGO_01",
+      "doctors": 3,
+      "nurses": 6,
+      "technicians": 6,
+      "support_staff": 21,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_COGO_COGO_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 0,
+      "support_staff": 5,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_LITORAL_COGO_CORISCO_01",
+      "doctors": 2,
+      "nurses": 13,
+      "technicians": 2,
+      "support_staff": 16,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_LITORAL_COGO_CORISCO_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 0,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_ACONIBE_ACONIBE_01",
+      "doctors": 2,
+      "nurses": 20,
+      "technicians": 4,
+      "support_staff": 11,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_ACONIBE_ACONIBE_01",
+      "doctors": 0,
+      "nurses": 1,
+      "technicians": 1,
+      "support_staff": 0,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_ANISOK_ANISOK_01",
+      "doctors": 5,
+      "nurses": 6,
+      "technicians": 6,
+      "support_staff": 10,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_ANISOK_ANISOK_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 2,
+      "support_staff": 1,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_ANISOK_AYENE_01",
+      "doctors": 3,
+      "nurses": 6,
+      "technicians": 4,
+      "support_staff": 15,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_ANISOK_AYENE_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 1,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_MONGOMO_MENGOMEYEN_01",
+      "doctors": 2,
+      "nurses": 10,
+      "technicians": 6,
+      "support_staff": 13,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_MONGOMO_MENGOMEYEN_01",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 1,
+      "support_staff": 4,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_MONGOMO_MENGOMEYEN_02",
+      "doctors": 0,
+      "nurses": 3,
+      "technicians": 2,
+      "support_staff": 5,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_MONGOMO_MONGOMO_01",
+      "doctors": 5,
+      "nurses": 8,
+      "technicians": 2,
+      "support_staff": 15,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_MONGOMO_MONGOMO_01",
+      "doctors": 0,
+      "nurses": 2,
+      "technicians": 2,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_MONGOMO_NZANGAYONG_01",
+      "doctors": 4,
+      "nurses": 19,
+      "technicians": 2,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_MONGOMO_NZANGAYONG_01",
+      "doctors": 0,
+      "nurses": 1,
+      "technicians": 0,
+      "support_staff": 5,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_NSORK_NSORK_01",
+      "doctors": 1,
+      "nurses": 16,
+      "technicians": 5,
+      "support_staff": 9,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_NSORK_NSORK_01",
+      "doctors": 0,
+      "nurses": 4,
+      "technicians": 1,
+      "support_staff": 2,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "HOSP_ANNOBON_SAN_ANTONIO_DE_PALE",
+      "doctors": 32,
+      "nurses": 38,
+      "technicians": 30,
+      "support_staff": 11,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "HOSP_BIOKO_DEL_SUR_LUBA",
+      "doctors": 19,
+      "nurses": 63,
+      "technicians": 13,
+      "support_staff": 11,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "HOSP_CENTRO_SUR_AKURENAM",
+      "doctors": 15,
+      "nurses": 98,
+      "technicians": 16,
+      "support_staff": 8,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "HOSP_DJIBLOHO_OYALA",
+      "doctors": 26,
+      "nurses": 108,
+      "technicians": 8,
+      "support_staff": 9,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "HOSP_KIE_NTEM_EBIBEYIN",
+      "doctors": 38,
+      "nurses": 61,
+      "technicians": 29,
+      "support_staff": 22,
+      "cooperation_program": "COOPERACION_ESPANA"
+    },
+    {
+      "facility_id": "HOSP_WELE_NZAS_ACONIBE",
+      "doctors": 14,
+      "nurses": 97,
+      "technicians": 21,
+      "support_staff": 7,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_URBANA_01_MALABO",
+      "doctors": 5,
+      "nurses": 5,
+      "technicians": 2,
+      "support_staff": 25,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_URBANA_02_MALABO",
+      "doctors": 5,
+      "nurses": 7,
+      "technicians": 5,
+      "support_staff": 18,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_URBANA_03_MALABO",
+      "doctors": 1,
+      "nurses": 15,
+      "technicians": 4,
+      "support_staff": 18,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_URBANA_04_MALABO",
+      "doctors": 5,
+      "nurses": 3,
+      "technicians": 0,
+      "support_staff": 11,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_URBANA_05_MALABO",
+      "doctors": 2,
+      "nurses": 5,
+      "technicians": 4,
+      "support_staff": 9,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_URBANA_06_MALABO",
+      "doctors": 5,
+      "nurses": 7,
+      "technicians": 4,
+      "support_staff": 19,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_URBANA_07_MALABO",
+      "doctors": 2,
+      "nurses": 4,
+      "technicians": 1,
+      "support_staff": 24,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_URBANA_08_MALABO",
+      "doctors": 2,
+      "nurses": 9,
+      "technicians": 0,
+      "support_staff": 11,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_BATA_01_BATA",
+      "doctors": 4,
+      "nurses": 10,
+      "technicians": 1,
+      "support_staff": 20,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_BATA_02_BATA",
+      "doctors": 2,
+      "nurses": 12,
+      "technicians": 2,
+      "support_staff": 12,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_BATA_03_BATA",
+      "doctors": 2,
+      "nurses": 4,
+      "technicians": 3,
+      "support_staff": 18,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_BATA_04_BATA",
+      "doctors": 1,
+      "nurses": 10,
+      "technicians": 0,
+      "support_staff": 15,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_BATA_05_BATA",
+      "doctors": 3,
+      "nurses": 10,
+      "technicians": 4,
+      "support_staff": 3,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_BATA_06_BATA",
+      "doctors": 5,
+      "nurses": 8,
+      "technicians": 2,
+      "support_staff": 20,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_BATA_07_BATA",
+      "doctors": 3,
+      "nurses": 14,
+      "technicians": 5,
+      "support_staff": 25,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_BATA_08_BATA",
+      "doctors": 3,
+      "nurses": 13,
+      "technicians": 1,
+      "support_staff": 17,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_BATA_09_BATA",
+      "doctors": 1,
+      "nurses": 4,
+      "technicians": 0,
+      "support_staff": 7,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_BATA_10_BATA",
+      "doctors": 5,
+      "nurses": 7,
+      "technicians": 3,
+      "support_staff": 6,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_MONGOMO_01_MONGOMO",
+      "doctors": 6,
+      "nurses": 3,
+      "technicians": 3,
+      "support_staff": 9,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_MONGOMO_02_MONGOMO",
+      "doctors": 5,
+      "nurses": 2,
+      "technicians": 1,
+      "support_staff": 7,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_MONGOMO_03_MONGOMO",
+      "doctors": 1,
+      "nurses": 14,
+      "technicians": 3,
+      "support_staff": 9,
+      "cooperation_program": null
+    },
+    {
+      "facility_id": "CLINIC_MONGOMO_04_MONGOMO",
+      "doctors": 4,
+      "nurses": 12,
+      "technicians": 0,
+      "support_staff": 3,
+      "cooperation_program": null
+    }
+  ]
+}

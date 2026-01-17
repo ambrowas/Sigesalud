@@ -1,0 +1,10 @@
+[
+  {
+    "region_id": "INSULAR",
+    "name": "Insular"
+  },
+  {
+    "region_id": "CONTINENTAL",
+    "name": "Continental"
+  }
+]

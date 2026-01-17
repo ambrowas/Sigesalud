@@ -1,0 +1,74 @@
+﻿[
+  {
+    "disease_id": "MALARIA",
+    "name": "Malaria",
+    "icd10": "B50-B54",
+    "group": "TRANSMISIBLE",
+    "default_severity": "ALTA",
+    "vigilancia": true,
+    "panel": true
+  },
+  {
+    "disease_id": "ETI_IRA",
+    "name": "Infecciones respiratorias agudas (ETI / IRA)",
+    "icd10": "J00-J06",
+    "group": "TRANSMISIBLE",
+    "default_severity": "MEDIA",
+    "vigilancia": true,
+    "panel": true
+  },
+  {
+    "disease_id": "DIARREA",
+    "name": "Enfermedades diarreicas",
+    "icd10": "A09",
+    "group": "TRANSMISIBLE",
+    "default_severity": "MEDIA",
+    "vigilancia": true,
+    "panel": true
+  },
+  {
+    "disease_id": "TB",
+    "name": "Tuberculosis",
+    "icd10": "A15-A19",
+    "group": "TRANSMISIBLE",
+    "default_severity": "ALTA",
+    "vigilancia": true,
+    "panel": true
+  },
+  {
+    "disease_id": "HIV",
+    "name": "VIH",
+    "icd10": "B20-B24",
+    "group": "TRANSMISIBLE",
+    "default_severity": "ALTA",
+    "vigilancia": true,
+    "panel": true
+  },
+  {
+    "disease_id": "MATERNAL_RISK",
+    "name": "Riesgo materno / complicaciones obstetricas",
+    "icd10": "O00-O99",
+    "group": "MATERNO",
+    "default_severity": "ALTA",
+    "vigilancia": true,
+    "panel": true
+  },
+  {
+    "disease_id": "HTA",
+    "name": "Hipertension",
+    "icd10": "I10-I15",
+    "group": "CRONICO",
+    "default_severity": "MEDIA",
+    "vigilancia": true,
+    "panel": true
+  },
+  {
+    "disease_id": "DIABETES",
+    "name": "Diabetes",
+    "icd10": "E10-E14",
+    "group": "CRONICO",
+    "default_severity": "MEDIA",
+    "vigilancia": true,
+    "panel": true
+  }
+]

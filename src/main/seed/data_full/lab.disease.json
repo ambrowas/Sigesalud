@@ -1,0 +1,19 @@
+﻿{
+  "version": "v1",
+  "records": [
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-31","disease_id":"MALARIA","test_type":"RDT","total_tested":110,"total_positive":32},
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-31","disease_id":"HIV","test_type":"RAPID","total_tested":23,"total_positive":3},
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-31","disease_id":"TB","test_type":"GENEXPERT","total_tested":15,"total_positive":2},
+    {"facility_id":"HOSP_REGIONAL_MALABO","date":"2025-12-31","disease_id":"DIARREA","test_type":"STOOL","total_tested":18,"total_positive":4},
+
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-31","disease_id":"MALARIA","test_type":"RDT","total_tested":78,"total_positive":21},
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-31","disease_id":"HIV","test_type":"RAPID","total_tested":20,"total_positive":2},
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-31","disease_id":"TB","test_type":"GENEXPERT","total_tested":7,"total_positive":1},
+    {"facility_id":"HOSP_GENERAL_LITORAL_BATA","date":"2025-12-31","disease_id":"ETI_IRA","test_type":"RAPID","total_tested":26,"total_positive":5},
+
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-31","disease_id":"MALARIA","test_type":"RDT","total_tested":40,"total_positive":9},
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-31","disease_id":"HIV","test_type":"RAPID","total_tested":11,"total_positive":1},
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-31","disease_id":"TB","test_type":"GENEXPERT","total_tested":6,"total_positive":1},
+    {"facility_id":"HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO","date":"2025-12-31","disease_id":"DIABETES","test_type":"GLUCOSE","total_tested":20,"total_positive":6}
+  ]
+}

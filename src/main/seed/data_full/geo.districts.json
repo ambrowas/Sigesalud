@@ -1,0 +1,116 @@
+[
+  {
+    "district_id": "DIST_ANNOBON_SAN_ANTONIO_DE_PALE",
+    "name": "San Antonio de Pale",
+    "province_id": "PROV_ANNOBON",
+    "region": "INSULAR"
+  },
+  {
+    "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+    "name": "Malabo",
+    "province_id": "PROV_BIOKO_DEL_NORTE",
+    "region": "INSULAR"
+  },
+  {
+    "district_id": "DIST_BIOKO_DEL_NORTE_BANEY",
+    "name": "Baney",
+    "province_id": "PROV_BIOKO_DEL_NORTE",
+    "region": "INSULAR"
+  },
+  {
+    "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+    "name": "Luba",
+    "province_id": "PROV_BIOKO_DEL_SUR",
+    "region": "INSULAR"
+  },
+  {
+    "district_id": "DIST_BIOKO_DEL_SUR_RIABA",
+    "name": "Riaba",
+    "province_id": "PROV_BIOKO_DEL_SUR",
+    "region": "INSULAR"
+  },
+  {
+    "district_id": "DIST_CENTRO_SUR_AKURENAM",
+    "name": "Akurenam",
+    "province_id": "PROV_CENTRO_SUR",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+    "name": "Evinayong",
+    "province_id": "PROV_CENTRO_SUR",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_CENTRO_SUR_NIEFANG",
+    "name": "Niefang",
+    "province_id": "PROV_CENTRO_SUR",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_DJIBLOHO_OYALA",
+    "name": "Oyala",
+    "province_id": "PROV_DJIBLOHO",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_KIE_NTEM_EBIBEYIN",
+    "name": "Ebibeyin",
+    "province_id": "PROV_KIE_NTEM",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_KIE_NTEM_MICOMISENG",
+    "name": "Micomiseng",
+    "province_id": "PROV_KIE_NTEM",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_KIE_NTEM_NSOK_NSOMO",
+    "name": "Nsok-Nsomo",
+    "province_id": "PROV_KIE_NTEM",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_LITORAL_BATA",
+    "name": "Bata",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_LITORAL_MBINI",
+    "name": "Mbini",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_LITORAL_COGO",
+    "name": "Cogo",
+    "province_id": "PROV_LITORAL",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_WELE_NZAS_ACONIBE",
+    "name": "Aconibe",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_WELE_NZAS_ANISOK",
+    "name": "Anisok",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_WELE_NZAS_MONGOMO",
+    "name": "Mongomo",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  },
+  {
+    "district_id": "DIST_WELE_NZAS_NSORK",
+    "name": "Nsork",
+    "province_id": "PROV_WELE_NZAS",
+    "region": "CONTINENTAL"
+  }
+]

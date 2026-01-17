@@ -1,0 +1,14 @@
+﻿{
+  "version": "v1",
+  "history": [
+    {
+      "history_id": "HIS_000001",
+      "worker_id": "HW_000001",
+      "facility_id": "HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO",
+      "role": "Medico",
+      "start_date": "2020-02-01",
+      "end_date": "2022-12-31",
+      "notes": "Rotacion previa en consulta externa"
+    }
+  ]
+}

@@ -1,0 +1,4178 @@
+{
+  "source": "Base registry + generated nationwide expansion (deterministic)",
+  "version": "v1_full",
+  "generated_on": "2025-12-31",
+  "facility_count": 133,
+  "facilities": [
+    {
+      "facility_id": "HOSP_REGIONAL_MALABO",
+      "name": "Hospital Regional de Malabo",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "district": "Malabo",
+      "city": "Malabo",
+      "facility_type": "HOSPITAL",
+      "reference_level": "REGIONAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "REFERRALS"
+      ],
+      "contacts": {
+        "phones": [
+          "+240222763363"
+        ],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "website",
+          "address"
+        ]
+      },
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "municipality": "Malabo"
+    },
+    {
+      "facility_id": "HOSP_LA_PAZ_MEDICAL_CENTER_SIPOPO",
+      "name": "Hospital La Paz Medical Center",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "district": "Malabo",
+      "city": "Malabo",
+      "facility_type": "HOSPITAL",
+      "reference_level": "PRIVATE_REFERENCE",
+      "ownership": "PRIVATE",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "SPECIALIST_CARE"
+      ],
+      "contacts": {
+        "phones": [
+          "+240556666154"
+        ],
+        "website": null
+      },
+      "address_note": "Banades 3C Al S. Sipopo, Bioko Norte (Malabo)",
+      "data_quality": {
+        "missing": [
+          "website"
+        ]
+      },
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "municipality": "Malabo"
+    },
+    {
+      "facility_id": "CLINICA_GUADALUPE_MALABO",
+      "name": "Clinica Guadalupe",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "district": "Malabo",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "PRIMARY_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Direccion no especificada (en el texto base).",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      },
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "municipality": "Malabo"
+    },
+    {
+      "facility_id": "LAB_CASTRO_VERDE_ELA_NGUEMA",
+      "name": "Laboratorio Castro Verde",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "district": "Malabo",
+      "city": "Malabo",
+      "facility_type": "LAB",
+      "reference_level": "SPECIALIZED",
+      "ownership": "FAITH_BASED",
+      "services": [
+        "LAB_DIAGNOSTICS",
+        "TROPICAL_DISEASES",
+        "MALARIA_DIAGNOSIS"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Barrio de Ela Nguema; dirigido por la comunidad teresiana.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website"
+        ]
+      },
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "municipality": "Malabo"
+    },
+    {
+      "facility_id": "CLINICA_SANTA_ISABEL_LUBA",
+      "name": "Clinica Santa Isabel",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "district": "Luba",
+      "city": "Luba",
+      "facility_type": "CLINIC",
+      "reference_level": "DISTRICT_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [
+          "+240333092666"
+        ],
+        "website": null
+      },
+      "address_note": "Indicado como Bioko Sur (Luba).",
+      "data_quality": {
+        "missing": [
+          "website",
+          "address"
+        ]
+      },
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_LUBA",
+      "municipality": "Luba"
+    },
+    {
+      "facility_id": "CLINICA_SANTA_ISABEL_II_MALABO",
+      "name": "Clinica Santa Isabel II",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "district": "Malabo",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [
+          "+240333092666"
+        ],
+        "website": null
+      },
+      "address_note": "s/n Parque de las Aves de Africa",
+      "data_quality": {
+        "missing": [
+          "website"
+        ]
+      },
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "municipality": "Malabo"
+    },
+    {
+      "facility_id": "CLINICA_LA_PAZ_BATA",
+      "name": "Clinica La Paz",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "PRIVATE_REFERENCE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT",
+        "SPECIALIST_CARE"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": "Pagina web (no especificada)"
+      },
+      "address_note": "Buenas instalaciones, de referencia en la zona.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website_url_exact"
+        ]
+      },
+      "province_id": "PROV_LITORAL",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "municipality": "Bata"
+    },
+    {
+      "facility_id": "CS_MARIA_RAFOLS_BATA_SUR",
+      "name": "Centros de salud Maria Rafols",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "FAITH_BASED",
+      "services": [
+        "FIRST_AID",
+        "LAB_DIAGNOSTICS",
+        "TROPICAL_DISEASES"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Bata Sur; atendido por religiosas espanolas.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website"
+        ]
+      },
+      "province_id": "PROV_LITORAL",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "municipality": "Bata"
+    },
+    {
+      "facility_id": "CS_MARIA_GAY_BATA_CENTRO",
+      "name": "Centros de salud Maria Gay",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "FAITH_BASED",
+      "services": [
+        "FIRST_AID",
+        "LAB_DIAGNOSTICS",
+        "TROPICAL_DISEASES"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Bata Centro; atendido por religiosas espanolas.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website"
+        ]
+      },
+      "province_id": "PROV_LITORAL",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "municipality": "Bata"
+    },
+    {
+      "facility_id": "CS_LA_LIBERTAD_BATA_NORTE",
+      "name": "Centros de salud la Libertad",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "FAITH_BASED",
+      "services": [
+        "FIRST_AID",
+        "LAB_DIAGNOSTICS",
+        "TROPICAL_DISEASES"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Bata Norte; atendido por religiosas espanolas.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website"
+        ]
+      },
+      "province_id": "PROV_LITORAL",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "municipality": "Bata"
+    },
+    {
+      "facility_id": "HOSP_GENERAL_LITORAL_BATA",
+      "name": "Hospital General Litoral Bata",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HOSPITAL",
+      "reference_level": "GENERAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "SURGERY",
+        "REFERRALS"
+      ],
+      "contacts": {
+        "phones": [
+          "+240333082101",
+          "+240333082290"
+        ],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "website",
+          "address"
+        ]
+      },
+      "province_id": "PROV_LITORAL",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "municipality": "Bata"
+    },
+    {
+      "facility_id": "HOSP_REGIONAL_BATA_CUBANO_ESPANOL",
+      "name": "Hospital Regional (Bata)",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HOSPITAL",
+      "reference_level": "REGIONAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "REFERRALS"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": "Se indica que trabajan medicos cubanos y espanoles.",
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address",
+          "official_name_confirm"
+        ]
+      },
+      "province_id": "PROV_LITORAL",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "municipality": "Bata"
+    },
+    {
+      "facility_id": "HOSP_REGIONAL_DR_DAMIAN_ROKU_EPITIE_MONANGA",
+      "name": "Hospital Regional Dr Damian Roku Epitie Monanga",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "district": "Bata",
+      "city": "Bata",
+      "facility_type": "HOSPITAL",
+      "reference_level": "REGIONAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "REFERRALS"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      },
+      "province_id": "PROV_LITORAL",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "municipality": "Bata"
+    },
+    {
+      "facility_id": "CS_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE_01",
+      "name": "Centro de Salud de San Antonio de Pale",
+      "region": "INSULAR",
+      "province": "Annobon",
+      "province_id": "PROV_ANNOBON",
+      "district": "San Antonio de Pale",
+      "district_id": "DIST_ANNOBON_SAN_ANTONIO_DE_PALE",
+      "municipality": "San Antonio de Pale",
+      "municipality_id": "MUN_DIST_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE",
+      "city": "San Antonio de Pale",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE_01",
+      "name": "Puesto Sanitario San Antonio de Pale 1",
+      "region": "INSULAR",
+      "province": "Annobon",
+      "province_id": "PROV_ANNOBON",
+      "district": "San Antonio de Pale",
+      "district_id": "DIST_ANNOBON_SAN_ANTONIO_DE_PALE",
+      "municipality": "San Antonio de Pale",
+      "municipality_id": "MUN_DIST_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE",
+      "city": "San Antonio de Pale",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE_02",
+      "name": "Puesto Sanitario San Antonio de Pale 2",
+      "region": "INSULAR",
+      "province": "Annobon",
+      "province_id": "PROV_ANNOBON",
+      "district": "San Antonio de Pale",
+      "district_id": "DIST_ANNOBON_SAN_ANTONIO_DE_PALE",
+      "municipality": "San Antonio de Pale",
+      "municipality_id": "MUN_DIST_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE",
+      "city": "San Antonio de Pale",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_NORTE_MALABO_MALABO_01",
+      "name": "Centro de Salud de Malabo",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Malabo",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality": "Malabo",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "city": "Malabo",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_NORTE_MALABO_MALABO_01",
+      "name": "Puesto Sanitario Malabo 1",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Malabo",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality": "Malabo",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "city": "Malabo",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_NORTE_BANEY_BANEY_01",
+      "name": "Centro de Salud de Baney",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Baney",
+      "district_id": "DIST_BIOKO_DEL_NORTE_BANEY",
+      "municipality": "Baney",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_BANEY_BANEY",
+      "city": "Baney",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_NORTE_BANEY_BANEY_01",
+      "name": "Puesto Sanitario Baney 1",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Baney",
+      "district_id": "DIST_BIOKO_DEL_NORTE_BANEY",
+      "municipality": "Baney",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_BANEY_BANEY",
+      "city": "Baney",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_NORTE_BANEY_BANEY_02",
+      "name": "Puesto Sanitario Baney 2",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Baney",
+      "district_id": "DIST_BIOKO_DEL_NORTE_BANEY",
+      "municipality": "Baney",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_BANEY_BANEY",
+      "city": "Baney",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_NORTE_BANEY_REBOLA_01",
+      "name": "Centro de Salud de Rebola",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Baney",
+      "district_id": "DIST_BIOKO_DEL_NORTE_BANEY",
+      "municipality": "Rebola",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_BANEY_REBOLA",
+      "city": "Rebola",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_NORTE_BANEY_REBOLA_01",
+      "name": "Puesto Sanitario Rebola 1",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Baney",
+      "district_id": "DIST_BIOKO_DEL_NORTE_BANEY",
+      "municipality": "Rebola",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_BANEY_REBOLA",
+      "city": "Rebola",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_SUR_LUBA_BATETE_01",
+      "name": "Centro de Salud de Batete",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district": "Luba",
+      "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+      "municipality": "Batete",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_BATETE",
+      "city": "Batete",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_SUR_LUBA_BATETE_01",
+      "name": "Puesto Sanitario Batete 1",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district": "Luba",
+      "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+      "municipality": "Batete",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_BATETE",
+      "city": "Batete",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_SUR_LUBA_BATETE_02",
+      "name": "Puesto Sanitario Batete 2",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district": "Luba",
+      "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+      "municipality": "Batete",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_BATETE",
+      "city": "Batete",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_SUR_LUBA_LUBA_01",
+      "name": "Centro de Salud de Luba",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district": "Luba",
+      "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+      "municipality": "Luba",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_LUBA",
+      "city": "Luba",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_SUR_LUBA_LUBA_01",
+      "name": "Puesto Sanitario Luba 1",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district": "Luba",
+      "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+      "municipality": "Luba",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_LUBA",
+      "city": "Luba",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_SUR_LUBA_MOKA_01",
+      "name": "Centro de Salud de Moka",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district": "Luba",
+      "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+      "municipality": "Moka",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_MOKA",
+      "city": "Moka",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_SUR_LUBA_MOKA_01",
+      "name": "Puesto Sanitario Moka 1",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district": "Luba",
+      "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+      "municipality": "Moka",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_MOKA",
+      "city": "Moka",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_BIOKO_DEL_SUR_RIABA_RIABA_01",
+      "name": "Centro de Salud de Riaba",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district": "Riaba",
+      "district_id": "DIST_BIOKO_DEL_SUR_RIABA",
+      "municipality": "Riaba",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_RIABA_RIABA",
+      "city": "Riaba",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_BIOKO_DEL_SUR_RIABA_RIABA_01",
+      "name": "Puesto Sanitario Riaba 1",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district": "Riaba",
+      "district_id": "DIST_BIOKO_DEL_SUR_RIABA",
+      "municipality": "Riaba",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_RIABA_RIABA",
+      "city": "Riaba",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_AKURENAM_AKURENAM_01",
+      "name": "Centro de Salud de Akurenam",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Akurenam",
+      "district_id": "DIST_CENTRO_SUR_AKURENAM",
+      "municipality": "Akurenam",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_AKURENAM_AKURENAM",
+      "city": "Akurenam",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_AKURENAM_AKURENAM_01",
+      "name": "Puesto Sanitario Akurenam 1",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Akurenam",
+      "district_id": "DIST_CENTRO_SUR_AKURENAM",
+      "municipality": "Akurenam",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_AKURENAM_AKURENAM",
+      "city": "Akurenam",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_AKURENAM_AKURENAM_02",
+      "name": "Puesto Sanitario Akurenam 2",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Akurenam",
+      "district_id": "DIST_CENTRO_SUR_AKURENAM",
+      "municipality": "Akurenam",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_AKURENAM_AKURENAM",
+      "city": "Akurenam",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_EVINAYONG_BICURGA_01",
+      "name": "Centro de Salud de Bicurga",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Evinayong",
+      "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+      "municipality": "Bicurga",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_EVINAYONG_BICURGA",
+      "city": "Bicurga",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_EVINAYONG_BICURGA_01",
+      "name": "Puesto Sanitario Bicurga 1",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Evinayong",
+      "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+      "municipality": "Bicurga",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_EVINAYONG_BICURGA",
+      "city": "Bicurga",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_EVINAYONG_EVINAYONG_01",
+      "name": "Centro de Salud de Evinayong",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Evinayong",
+      "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+      "municipality": "Evinayong",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_EVINAYONG_EVINAYONG",
+      "city": "Evinayong",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_EVINAYONG_EVINAYONG_01",
+      "name": "Puesto Sanitario Evinayong 1",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Evinayong",
+      "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+      "municipality": "Evinayong",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_EVINAYONG_EVINAYONG",
+      "city": "Evinayong",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_EVINAYONG_EVINAYONG_02",
+      "name": "Puesto Sanitario Evinayong 2",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Evinayong",
+      "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+      "municipality": "Evinayong",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_EVINAYONG_EVINAYONG",
+      "city": "Evinayong",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_EVINAYONG_TEGUETE_01",
+      "name": "Centro de Salud de Teguete",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Evinayong",
+      "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+      "municipality": "Teguete",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_EVINAYONG_TEGUETE",
+      "city": "Teguete",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_EVINAYONG_TEGUETE_01",
+      "name": "Puesto Sanitario Teguete 1",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Evinayong",
+      "district_id": "DIST_CENTRO_SUR_EVINAYONG",
+      "municipality": "Teguete",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_EVINAYONG_TEGUETE",
+      "city": "Teguete",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_NIEFANG_NIEFANG_01",
+      "name": "Centro de Salud de Niefang",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Niefang",
+      "district_id": "DIST_CENTRO_SUR_NIEFANG",
+      "municipality": "Niefang",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NIEFANG",
+      "city": "Niefang",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NIEFANG_01",
+      "name": "Puesto Sanitario Niefang 1",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Niefang",
+      "district_id": "DIST_CENTRO_SUR_NIEFANG",
+      "municipality": "Niefang",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NIEFANG",
+      "city": "Niefang",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NIEFANG_02",
+      "name": "Puesto Sanitario Niefang 2",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Niefang",
+      "district_id": "DIST_CENTRO_SUR_NIEFANG",
+      "municipality": "Niefang",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NIEFANG",
+      "city": "Niefang",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_NIEFANG_NKIMI_01",
+      "name": "Centro de Salud de Nkimi",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Niefang",
+      "district_id": "DIST_CENTRO_SUR_NIEFANG",
+      "municipality": "Nkimi",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NKIMI",
+      "city": "Nkimi",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NKIMI_01",
+      "name": "Puesto Sanitario Nkimi 1",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Niefang",
+      "district_id": "DIST_CENTRO_SUR_NIEFANG",
+      "municipality": "Nkimi",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NKIMI",
+      "city": "Nkimi",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NKIMI_02",
+      "name": "Puesto Sanitario Nkimi 2",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Niefang",
+      "district_id": "DIST_CENTRO_SUR_NIEFANG",
+      "municipality": "Nkimi",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NKIMI",
+      "city": "Nkimi",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_CENTRO_SUR_NIEFANG_NKUMEKIEN_01",
+      "name": "Centro de Salud de Nkumekien",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Niefang",
+      "district_id": "DIST_CENTRO_SUR_NIEFANG",
+      "municipality": "Nkumekien",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NKUMEKIEN",
+      "city": "Nkumekien",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NKUMEKIEN_01",
+      "name": "Puesto Sanitario Nkumekien 1",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Niefang",
+      "district_id": "DIST_CENTRO_SUR_NIEFANG",
+      "municipality": "Nkumekien",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NKUMEKIEN",
+      "city": "Nkumekien",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_CENTRO_SUR_NIEFANG_NKUMEKIEN_02",
+      "name": "Puesto Sanitario Nkumekien 2",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Niefang",
+      "district_id": "DIST_CENTRO_SUR_NIEFANG",
+      "municipality": "Nkumekien",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_NIEFANG_NKUMEKIEN",
+      "city": "Nkumekien",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_DJIBLOHO_OYALA_OYALA_01",
+      "name": "Centro de Salud de Oyala",
+      "region": "CONTINENTAL",
+      "province": "Djibloho",
+      "province_id": "PROV_DJIBLOHO",
+      "district": "Oyala",
+      "district_id": "DIST_DJIBLOHO_OYALA",
+      "municipality": "Oyala",
+      "municipality_id": "MUN_DIST_DJIBLOHO_OYALA_OYALA",
+      "city": "Oyala",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_DJIBLOHO_OYALA_OYALA_01",
+      "name": "Puesto Sanitario Oyala 1",
+      "region": "CONTINENTAL",
+      "province": "Djibloho",
+      "province_id": "PROV_DJIBLOHO",
+      "district": "Oyala",
+      "district_id": "DIST_DJIBLOHO_OYALA",
+      "municipality": "Oyala",
+      "municipality_id": "MUN_DIST_DJIBLOHO_OYALA_OYALA",
+      "city": "Oyala",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_DJIBLOHO_OYALA_MEBERE_01",
+      "name": "Centro de Salud de Mebere",
+      "region": "CONTINENTAL",
+      "province": "Djibloho",
+      "province_id": "PROV_DJIBLOHO",
+      "district": "Oyala",
+      "district_id": "DIST_DJIBLOHO_OYALA",
+      "municipality": "Mebere",
+      "municipality_id": "MUN_DIST_DJIBLOHO_OYALA_MEBERE",
+      "city": "Mebere",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_DJIBLOHO_OYALA_MEBERE_01",
+      "name": "Puesto Sanitario Mebere 1",
+      "region": "CONTINENTAL",
+      "province": "Djibloho",
+      "province_id": "PROV_DJIBLOHO",
+      "district": "Oyala",
+      "district_id": "DIST_DJIBLOHO_OYALA",
+      "municipality": "Mebere",
+      "municipality_id": "MUN_DIST_DJIBLOHO_OYALA_MEBERE",
+      "city": "Mebere",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_EBIBEYIN_BIDJABIDJAN_01",
+      "name": "Centro de Salud de Bidjabidjan",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Ebibeyin",
+      "district_id": "DIST_KIE_NTEM_EBIBEYIN",
+      "municipality": "Bidjabidjan",
+      "municipality_id": "MUN_DIST_KIE_NTEM_EBIBEYIN_BIDJABIDJAN",
+      "city": "Bidjabidjan",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_EBIBEYIN_BIDJABIDJAN_01",
+      "name": "Puesto Sanitario Bidjabidjan 1",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Ebibeyin",
+      "district_id": "DIST_KIE_NTEM_EBIBEYIN",
+      "municipality": "Bidjabidjan",
+      "municipality_id": "MUN_DIST_KIE_NTEM_EBIBEYIN_BIDJABIDJAN",
+      "city": "Bidjabidjan",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_EBIBEYIN_BIDJABIDJAN_02",
+      "name": "Puesto Sanitario Bidjabidjan 2",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Ebibeyin",
+      "district_id": "DIST_KIE_NTEM_EBIBEYIN",
+      "municipality": "Bidjabidjan",
+      "municipality_id": "MUN_DIST_KIE_NTEM_EBIBEYIN_BIDJABIDJAN",
+      "city": "Bidjabidjan",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_EBIBEYIN_EBIBEYIN_01",
+      "name": "Centro de Salud de Ebibeyin",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Ebibeyin",
+      "district_id": "DIST_KIE_NTEM_EBIBEYIN",
+      "municipality": "Ebibeyin",
+      "municipality_id": "MUN_DIST_KIE_NTEM_EBIBEYIN_EBIBEYIN",
+      "city": "Ebibeyin",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_EBIBEYIN_EBIBEYIN_01",
+      "name": "Puesto Sanitario Ebibeyin 1",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Ebibeyin",
+      "district_id": "DIST_KIE_NTEM_EBIBEYIN",
+      "municipality": "Ebibeyin",
+      "municipality_id": "MUN_DIST_KIE_NTEM_EBIBEYIN_EBIBEYIN",
+      "city": "Ebibeyin",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_EBIBEYIN_EBIBEYIN_02",
+      "name": "Puesto Sanitario Ebibeyin 2",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Ebibeyin",
+      "district_id": "DIST_KIE_NTEM_EBIBEYIN",
+      "municipality": "Ebibeyin",
+      "municipality_id": "MUN_DIST_KIE_NTEM_EBIBEYIN_EBIBEYIN",
+      "city": "Ebibeyin",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_MICOMISENG_MICOMISENG_01",
+      "name": "Centro de Salud de Micomiseng",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Micomiseng",
+      "district_id": "DIST_KIE_NTEM_MICOMISENG",
+      "municipality": "Micomiseng",
+      "municipality_id": "MUN_DIST_KIE_NTEM_MICOMISENG_MICOMISENG",
+      "city": "Micomiseng",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_MICOMISENG_MICOMISENG_01",
+      "name": "Puesto Sanitario Micomiseng 1",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Micomiseng",
+      "district_id": "DIST_KIE_NTEM_MICOMISENG",
+      "municipality": "Micomiseng",
+      "municipality_id": "MUN_DIST_KIE_NTEM_MICOMISENG_MICOMISENG",
+      "city": "Micomiseng",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_MICOMISENG_MICOMISENG_02",
+      "name": "Puesto Sanitario Micomiseng 2",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Micomiseng",
+      "district_id": "DIST_KIE_NTEM_MICOMISENG",
+      "municipality": "Micomiseng",
+      "municipality_id": "MUN_DIST_KIE_NTEM_MICOMISENG_MICOMISENG",
+      "city": "Micomiseng",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_MICOMISENG_NCUE_01",
+      "name": "Centro de Salud de Ncue",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Micomiseng",
+      "district_id": "DIST_KIE_NTEM_MICOMISENG",
+      "municipality": "Ncue",
+      "municipality_id": "MUN_DIST_KIE_NTEM_MICOMISENG_NCUE",
+      "city": "Ncue",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_MICOMISENG_NCUE_01",
+      "name": "Puesto Sanitario Ncue 1",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Micomiseng",
+      "district_id": "DIST_KIE_NTEM_MICOMISENG",
+      "municipality": "Ncue",
+      "municipality_id": "MUN_DIST_KIE_NTEM_MICOMISENG_NCUE",
+      "city": "Ncue",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_MICOMISENG_NSANG_01",
+      "name": "Centro de Salud de Nsang",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Micomiseng",
+      "district_id": "DIST_KIE_NTEM_MICOMISENG",
+      "municipality": "Nsang",
+      "municipality_id": "MUN_DIST_KIE_NTEM_MICOMISENG_NSANG",
+      "city": "Nsang",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_MICOMISENG_NSANG_01",
+      "name": "Puesto Sanitario Nsang 1",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Micomiseng",
+      "district_id": "DIST_KIE_NTEM_MICOMISENG",
+      "municipality": "Nsang",
+      "municipality_id": "MUN_DIST_KIE_NTEM_MICOMISENG_NSANG",
+      "city": "Nsang",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_KIE_NTEM_NSOK_NSOMO_NSOK_NSOMO_01",
+      "name": "Centro de Salud de Nsok-Nsomo",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Nsok-Nsomo",
+      "district_id": "DIST_KIE_NTEM_NSOK_NSOMO",
+      "municipality": "Nsok-Nsomo",
+      "municipality_id": "MUN_DIST_KIE_NTEM_NSOK_NSOMO_NSOK_NSOMO",
+      "city": "Nsok-Nsomo",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_NSOK_NSOMO_NSOK_NSOMO_01",
+      "name": "Puesto Sanitario Nsok-Nsomo 1",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Nsok-Nsomo",
+      "district_id": "DIST_KIE_NTEM_NSOK_NSOMO",
+      "municipality": "Nsok-Nsomo",
+      "municipality_id": "MUN_DIST_KIE_NTEM_NSOK_NSOMO_NSOK_NSOMO",
+      "city": "Nsok-Nsomo",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_KIE_NTEM_NSOK_NSOMO_NSOK_NSOMO_02",
+      "name": "Puesto Sanitario Nsok-Nsomo 2",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Nsok-Nsomo",
+      "district_id": "DIST_KIE_NTEM_NSOK_NSOMO",
+      "municipality": "Nsok-Nsomo",
+      "municipality_id": "MUN_DIST_KIE_NTEM_NSOK_NSOMO_NSOK_NSOMO",
+      "city": "Nsok-Nsomo",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_LITORAL_BATA_BATA_01",
+      "name": "Centro de Salud de Bata",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_BATA_BATA_01",
+      "name": "Puesto Sanitario Bata 1",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_LITORAL_BATA_MACHINDA_01",
+      "name": "Centro de Salud de Machinda",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Machinda",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_MACHINDA",
+      "city": "Machinda",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_BATA_MACHINDA_01",
+      "name": "Puesto Sanitario Machinda 1",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Machinda",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_MACHINDA",
+      "city": "Machinda",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_LITORAL_BATA_RIO_CAMPO_01",
+      "name": "Centro de Salud de Rio Campo",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Rio Campo",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_RIO_CAMPO",
+      "city": "Rio Campo",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_BATA_RIO_CAMPO_01",
+      "name": "Puesto Sanitario Rio Campo 1",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Rio Campo",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_RIO_CAMPO",
+      "city": "Rio Campo",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_BATA_RIO_CAMPO_02",
+      "name": "Puesto Sanitario Rio Campo 2",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Rio Campo",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_RIO_CAMPO",
+      "city": "Rio Campo",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_LITORAL_MBINI_BITICA_01",
+      "name": "Centro de Salud de Bitica",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Mbini",
+      "district_id": "DIST_LITORAL_MBINI",
+      "municipality": "Bitica",
+      "municipality_id": "MUN_DIST_LITORAL_MBINI_BITICA",
+      "city": "Bitica",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_MBINI_BITICA_01",
+      "name": "Puesto Sanitario Bitica 1",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Mbini",
+      "district_id": "DIST_LITORAL_MBINI",
+      "municipality": "Bitica",
+      "municipality_id": "MUN_DIST_LITORAL_MBINI_BITICA",
+      "city": "Bitica",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_MBINI_BITICA_02",
+      "name": "Puesto Sanitario Bitica 2",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Mbini",
+      "district_id": "DIST_LITORAL_MBINI",
+      "municipality": "Bitica",
+      "municipality_id": "MUN_DIST_LITORAL_MBINI_BITICA",
+      "city": "Bitica",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_LITORAL_MBINI_MBINI_01",
+      "name": "Centro de Salud de Mbini",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Mbini",
+      "district_id": "DIST_LITORAL_MBINI",
+      "municipality": "Mbini",
+      "municipality_id": "MUN_DIST_LITORAL_MBINI_MBINI",
+      "city": "Mbini",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_MBINI_MBINI_01",
+      "name": "Puesto Sanitario Mbini 1",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Mbini",
+      "district_id": "DIST_LITORAL_MBINI",
+      "municipality": "Mbini",
+      "municipality_id": "MUN_DIST_LITORAL_MBINI_MBINI",
+      "city": "Mbini",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_LITORAL_COGO_CABO_SAN_JUAN_01",
+      "name": "Centro de Salud de Cabo San Juan",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Cogo",
+      "district_id": "DIST_LITORAL_COGO",
+      "municipality": "Cabo San Juan",
+      "municipality_id": "MUN_DIST_LITORAL_COGO_CABO_SAN_JUAN",
+      "city": "Cabo San Juan",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_COGO_CABO_SAN_JUAN_01",
+      "name": "Puesto Sanitario Cabo San Juan 1",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Cogo",
+      "district_id": "DIST_LITORAL_COGO",
+      "municipality": "Cabo San Juan",
+      "municipality_id": "MUN_DIST_LITORAL_COGO_CABO_SAN_JUAN",
+      "city": "Cabo San Juan",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_COGO_CABO_SAN_JUAN_02",
+      "name": "Puesto Sanitario Cabo San Juan 2",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Cogo",
+      "district_id": "DIST_LITORAL_COGO",
+      "municipality": "Cabo San Juan",
+      "municipality_id": "MUN_DIST_LITORAL_COGO_CABO_SAN_JUAN",
+      "city": "Cabo San Juan",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_LITORAL_COGO_COGO_01",
+      "name": "Centro de Salud de Cogo",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Cogo",
+      "district_id": "DIST_LITORAL_COGO",
+      "municipality": "Cogo",
+      "municipality_id": "MUN_DIST_LITORAL_COGO_COGO",
+      "city": "Cogo",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_COGO_COGO_01",
+      "name": "Puesto Sanitario Cogo 1",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Cogo",
+      "district_id": "DIST_LITORAL_COGO",
+      "municipality": "Cogo",
+      "municipality_id": "MUN_DIST_LITORAL_COGO_COGO",
+      "city": "Cogo",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_LITORAL_COGO_CORISCO_01",
+      "name": "Centro de Salud de Corisco",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Cogo",
+      "district_id": "DIST_LITORAL_COGO",
+      "municipality": "Corisco",
+      "municipality_id": "MUN_DIST_LITORAL_COGO_CORISCO",
+      "city": "Corisco",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_LITORAL_COGO_CORISCO_01",
+      "name": "Puesto Sanitario Corisco 1",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Cogo",
+      "district_id": "DIST_LITORAL_COGO",
+      "municipality": "Corisco",
+      "municipality_id": "MUN_DIST_LITORAL_COGO_CORISCO",
+      "city": "Corisco",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_ACONIBE_ACONIBE_01",
+      "name": "Centro de Salud de Aconibe",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Aconibe",
+      "district_id": "DIST_WELE_NZAS_ACONIBE",
+      "municipality": "Aconibe",
+      "municipality_id": "MUN_DIST_WELE_NZAS_ACONIBE_ACONIBE",
+      "city": "Aconibe",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_ACONIBE_ACONIBE_01",
+      "name": "Puesto Sanitario Aconibe 1",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Aconibe",
+      "district_id": "DIST_WELE_NZAS_ACONIBE",
+      "municipality": "Aconibe",
+      "municipality_id": "MUN_DIST_WELE_NZAS_ACONIBE_ACONIBE",
+      "city": "Aconibe",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_ANISOK_ANISOK_01",
+      "name": "Centro de Salud de Anisok",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Anisok",
+      "district_id": "DIST_WELE_NZAS_ANISOK",
+      "municipality": "Anisok",
+      "municipality_id": "MUN_DIST_WELE_NZAS_ANISOK_ANISOK",
+      "city": "Anisok",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_ANISOK_ANISOK_01",
+      "name": "Puesto Sanitario Anisok 1",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Anisok",
+      "district_id": "DIST_WELE_NZAS_ANISOK",
+      "municipality": "Anisok",
+      "municipality_id": "MUN_DIST_WELE_NZAS_ANISOK_ANISOK",
+      "city": "Anisok",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_ANISOK_AYENE_01",
+      "name": "Centro de Salud de Ayene",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Anisok",
+      "district_id": "DIST_WELE_NZAS_ANISOK",
+      "municipality": "Ayene",
+      "municipality_id": "MUN_DIST_WELE_NZAS_ANISOK_AYENE",
+      "city": "Ayene",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_ANISOK_AYENE_01",
+      "name": "Puesto Sanitario Ayene 1",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Anisok",
+      "district_id": "DIST_WELE_NZAS_ANISOK",
+      "municipality": "Ayene",
+      "municipality_id": "MUN_DIST_WELE_NZAS_ANISOK_AYENE",
+      "city": "Ayene",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_MONGOMO_MENGOMEYEN_01",
+      "name": "Centro de Salud de Mengomeyen",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Mengomeyen",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MENGOMEYEN",
+      "city": "Mengomeyen",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_MONGOMO_MENGOMEYEN_01",
+      "name": "Puesto Sanitario Mengomeyen 1",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Mengomeyen",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MENGOMEYEN",
+      "city": "Mengomeyen",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_MONGOMO_MENGOMEYEN_02",
+      "name": "Puesto Sanitario Mengomeyen 2",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Mengomeyen",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MENGOMEYEN",
+      "city": "Mengomeyen",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_MONGOMO_MONGOMO_01",
+      "name": "Centro de Salud de Mongomo",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Mongomo",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MONGOMO",
+      "city": "Mongomo",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_MONGOMO_MONGOMO_01",
+      "name": "Puesto Sanitario Mongomo 1",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Mongomo",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MONGOMO",
+      "city": "Mongomo",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_MONGOMO_NZANGAYONG_01",
+      "name": "Centro de Salud de Nzangayong",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Nzangayong",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_NZANGAYONG",
+      "city": "Nzangayong",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_MONGOMO_NZANGAYONG_01",
+      "name": "Puesto Sanitario Nzangayong 1",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Nzangayong",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_NZANGAYONG",
+      "city": "Nzangayong",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CS_WELE_NZAS_NSORK_NSORK_01",
+      "name": "Centro de Salud de Nsork",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Nsork",
+      "district_id": "DIST_WELE_NZAS_NSORK",
+      "municipality": "Nsork",
+      "municipality_id": "MUN_DIST_WELE_NZAS_NSORK_NSORK",
+      "city": "Nsork",
+      "facility_type": "HEALTH_CENTER",
+      "reference_level": "PRIMARY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT",
+        "Maternidad (Basico)"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "PS_WELE_NZAS_NSORK_NSORK_01",
+      "name": "Puesto Sanitario Nsork 1",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Nsork",
+      "district_id": "DIST_WELE_NZAS_NSORK",
+      "municipality": "Nsork",
+      "municipality_id": "MUN_DIST_WELE_NZAS_NSORK_NSORK",
+      "city": "Nsork",
+      "facility_type": "Puesto de Salud",
+      "reference_level": "COMMUNITY",
+      "ownership": "PUBLIC",
+      "services": [
+        "FIRST_AID",
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "HOSP_ANNOBON_SAN_ANTONIO_DE_PALE",
+      "name": "Hospital Provincial de San Antonio de Pale",
+      "region": "INSULAR",
+      "province": "Annobon",
+      "province_id": "PROV_ANNOBON",
+      "district": "San Antonio de Pale",
+      "district_id": "DIST_ANNOBON_SAN_ANTONIO_DE_PALE",
+      "municipality": "San Antonio de Pale",
+      "municipality_id": "MUN_DIST_ANNOBON_SAN_ANTONIO_DE_PALE_SAN_ANTONIO_DE_PALE",
+      "city": "San Antonio de Pale",
+      "facility_type": "HOSPITAL",
+      "reference_level": "PROVINCIAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "SURGERY",
+        "REFERRALS",
+        "MATERNAL"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "HOSP_BIOKO_DEL_SUR_LUBA",
+      "name": "Hospital Provincial de Batete",
+      "region": "INSULAR",
+      "province": "Bioko del Sur",
+      "province_id": "PROV_BIOKO_DEL_SUR",
+      "district": "Luba",
+      "district_id": "DIST_BIOKO_DEL_SUR_LUBA",
+      "municipality": "Batete",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_SUR_LUBA_BATETE",
+      "city": "Batete",
+      "facility_type": "HOSPITAL",
+      "reference_level": "PROVINCIAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "SURGERY",
+        "REFERRALS",
+        "MATERNAL"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "HOSP_CENTRO_SUR_AKURENAM",
+      "name": "Hospital Provincial de Akurenam",
+      "region": "CONTINENTAL",
+      "province": "Centro Sur",
+      "province_id": "PROV_CENTRO_SUR",
+      "district": "Akurenam",
+      "district_id": "DIST_CENTRO_SUR_AKURENAM",
+      "municipality": "Akurenam",
+      "municipality_id": "MUN_DIST_CENTRO_SUR_AKURENAM_AKURENAM",
+      "city": "Akurenam",
+      "facility_type": "HOSPITAL",
+      "reference_level": "PROVINCIAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "SURGERY",
+        "REFERRALS",
+        "MATERNAL"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "HOSP_DJIBLOHO_OYALA",
+      "name": "Hospital Provincial de Mebere",
+      "region": "CONTINENTAL",
+      "province": "Djibloho",
+      "province_id": "PROV_DJIBLOHO",
+      "district": "Oyala",
+      "district_id": "DIST_DJIBLOHO_OYALA",
+      "municipality": "Mebere",
+      "municipality_id": "MUN_DIST_DJIBLOHO_OYALA_MEBERE",
+      "city": "Mebere",
+      "facility_type": "HOSPITAL",
+      "reference_level": "PROVINCIAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "SURGERY",
+        "REFERRALS",
+        "MATERNAL"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "HOSP_KIE_NTEM_EBIBEYIN",
+      "name": "Hospital Provincial de Bidjabidjan",
+      "region": "CONTINENTAL",
+      "province": "Kie-Ntem",
+      "province_id": "PROV_KIE_NTEM",
+      "district": "Ebibeyin",
+      "district_id": "DIST_KIE_NTEM_EBIBEYIN",
+      "municipality": "Bidjabidjan",
+      "municipality_id": "MUN_DIST_KIE_NTEM_EBIBEYIN_BIDJABIDJAN",
+      "city": "Bidjabidjan",
+      "facility_type": "HOSPITAL",
+      "reference_level": "PROVINCIAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "SURGERY",
+        "REFERRALS",
+        "MATERNAL"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "HOSP_WELE_NZAS_ACONIBE",
+      "name": "Hospital Provincial de Aconibe",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Aconibe",
+      "district_id": "DIST_WELE_NZAS_ACONIBE",
+      "municipality": "Aconibe",
+      "municipality_id": "MUN_DIST_WELE_NZAS_ACONIBE_ACONIBE",
+      "city": "Aconibe",
+      "facility_type": "HOSPITAL",
+      "reference_level": "PROVINCIAL",
+      "ownership": "PUBLIC",
+      "services": [
+        "INPATIENT",
+        "EMERGENCY",
+        "SURGERY",
+        "REFERRALS",
+        "MATERNAL"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_URBANA_01_MALABO",
+      "name": "Clinica Urbana 1",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Malabo",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality": "Malabo",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_URBANA_02_MALABO",
+      "name": "Clinica Urbana 2",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Malabo",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality": "Malabo",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_URBANA_03_MALABO",
+      "name": "Clinica Urbana 3",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Malabo",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality": "Malabo",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT",
+        "SPECIALIST_CARE"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_URBANA_04_MALABO",
+      "name": "Clinica Urbana 4",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Malabo",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality": "Malabo",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_URBANA_05_MALABO",
+      "name": "Clinica Urbana 5",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Malabo",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality": "Malabo",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_URBANA_06_MALABO",
+      "name": "Clinica Urbana 6",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Malabo",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality": "Malabo",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT",
+        "SPECIALIST_CARE"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_URBANA_07_MALABO",
+      "name": "Clinica Urbana 7",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Malabo",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality": "Malabo",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_URBANA_08_MALABO",
+      "name": "Clinica Urbana 8",
+      "region": "INSULAR",
+      "province": "Bioko del Norte",
+      "province_id": "PROV_BIOKO_DEL_NORTE",
+      "district": "Malabo",
+      "district_id": "DIST_BIOKO_DEL_NORTE_MALABO",
+      "municipality": "Malabo",
+      "municipality_id": "MUN_DIST_BIOKO_DEL_NORTE_MALABO_MALABO",
+      "city": "Malabo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_BATA_01_BATA",
+      "name": "Clinica Bata 1",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_BATA_02_BATA",
+      "name": "Clinica Bata 2",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_BATA_03_BATA",
+      "name": "Clinica Bata 3",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT",
+        "SPECIALIST_CARE"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_BATA_04_BATA",
+      "name": "Clinica Bata 4",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_BATA_05_BATA",
+      "name": "Clinica Bata 5",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_BATA_06_BATA",
+      "name": "Clinica Bata 6",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT",
+        "SPECIALIST_CARE"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_BATA_07_BATA",
+      "name": "Clinica Bata 7",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_BATA_08_BATA",
+      "name": "Clinica Bata 8",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_BATA_09_BATA",
+      "name": "Clinica Bata 9",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT",
+        "SPECIALIST_CARE"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_BATA_10_BATA",
+      "name": "Clinica Bata 10",
+      "region": "CONTINENTAL",
+      "province": "Litoral",
+      "province_id": "PROV_LITORAL",
+      "district": "Bata",
+      "district_id": "DIST_LITORAL_BATA",
+      "municipality": "Bata",
+      "municipality_id": "MUN_DIST_LITORAL_BATA_BATA",
+      "city": "Bata",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_MONGOMO_01_MONGOMO",
+      "name": "Clinica Mongomo 1",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Mongomo",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MONGOMO",
+      "city": "Mongomo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_MONGOMO_02_MONGOMO",
+      "name": "Clinica Mongomo 2",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Mongomo",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MONGOMO",
+      "city": "Mongomo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_MONGOMO_03_MONGOMO",
+      "name": "Clinica Mongomo 3",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Mongomo",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MONGOMO",
+      "city": "Mongomo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT",
+        "SPECIALIST_CARE"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    },
+    {
+      "facility_id": "CLINIC_MONGOMO_04_MONGOMO",
+      "name": "Clinica Mongomo 4",
+      "region": "CONTINENTAL",
+      "province": "Wele-Nzas",
+      "province_id": "PROV_WELE_NZAS",
+      "district": "Mongomo",
+      "district_id": "DIST_WELE_NZAS_MONGOMO",
+      "municipality": "Mongomo",
+      "municipality_id": "MUN_DIST_WELE_NZAS_MONGOMO_MONGOMO",
+      "city": "Mongomo",
+      "facility_type": "CLINIC",
+      "reference_level": "URBAN_PRIVATE",
+      "ownership": "PRIVATE",
+      "services": [
+        "OUTPATIENT"
+      ],
+      "contacts": {
+        "phones": [],
+        "website": null
+      },
+      "address_note": null,
+      "data_quality": {
+        "missing": [
+          "phones",
+          "website",
+          "address"
+        ]
+      }
+    }
+  ]
+}

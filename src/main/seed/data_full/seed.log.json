@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "facilities": 133,
+    "patients": 8000,
+    "visits_2025": 70000,
+    "stock_records_monthly_2025": 61992,
+    "epi_records_weekly_2025": 5928,
+    "alerts": 145,
+    "staff_records": 133
+  },
+  "integrity_checks": {
+    "unique_facility_id": true,
+    "unique_patient_id": true,
+    "unique_visit_id": true,
+    "visits_facility_fk_ok": true,
+    "visits_patient_fk_ok": true,
+    "epi_includes_tb_hiv": true
+  },
+  "notes": [
+    "Facilities include authoritative base registry entries and deterministic generated facilities per municipality.",
+    "Stock levels are monthly snapshots to keep dataset size manageable for Electron/SQLite demo.",
+    "Epidemiology alerts are generated using a 4-week moving average rule for MALARIA and ETI_IRA.",
+    "Stock-out alerts are generated for ANTIMALARIAL items in peak months (Jun-Aug) when stock < min_level.",
+    "v2: Added TB and HIV to diseases.catalog.json and epi_weekly_2025.json; injected low-prevalence TB/HIV diagnoses into visits_2025.json."
+  ]
+}
