@@ -4,9 +4,9 @@
     "private":  true,
     "main":  "dist/main/main.js",
     "scripts":  {
-                    "dev":  "concurrently \"powershell -NoProfile -Command \\\"Set-Location src/renderer; npx vite --port 5175 --strictPort\\\"\" \"npx tsc -w\" \"powershell -NoProfile -Command \\\"$env:ELECTRON_RUN_AS_NODE=''; $env:NODE_ENV='development'; npx wait-on http://localhost:5175; npx electron .\\\"\"",
+                    "dev":  "concurrently \"powershell -NoProfile -Command \\\"Set-Location src/renderer; npx vite --port 5175 --strictPort\\\"\" \"npx tsc -w --project tsconfig.main.json\" \"powershell -NoProfile -Command \\\"$env:ELECTRON_RUN_AS_NODE=''; $env:NODE_ENV='development'; npx wait-on http://localhost:5175; npx electron .\\\"\"",
                     "dev:renderer":  "vite",
-                    "dev:compile":  "tsc --project tsconfig.json",
+                    "dev:compile":  "tsc --project tsconfig.main.json",
                     "build":  "electron-vite build",
                     "start":  "electron .",
                     "seed":  "node ./src/main/seed/seed.js",

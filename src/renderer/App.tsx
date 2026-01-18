@@ -48,6 +48,10 @@ type HrCredential = {
   date_awarded?: string | null
   expires_on?: string | null
 }
+type HrScope = {
+  level: 'national' | 'province' | 'district'
+  id?: string
+}
 type ChatMessage = {
   id: string
   role: 'user' | 'assistant'
@@ -567,7 +571,7 @@ export default function App() {
   useEffect(() => {
     let active = true
     if (activeModule !== 'rrhh') return
-    const scope =
+    const scope: HrScope =
       hrDistrictFilter !== 'todas'
         ? { level: 'district', id: hrDistrictFilter }
         : hrProvinceFilter !== 'todas'
