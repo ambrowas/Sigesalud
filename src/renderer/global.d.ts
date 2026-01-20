@@ -16,7 +16,22 @@ declare global {
         } | null>
       }
       facilities: {
-        list: (filters: { region?: string; type?: string; search?: string }) => Promise<any[]>
+        list: (filters: { region?: string; type?: string; search?: string }) => Promise<Array<{
+          facility_id: string
+          name: string
+          region?: string | null
+          province?: string | null
+          district?: string | null
+          city?: string | null
+          facility_type?: string | null
+          reference_level?: string | null
+          ownership?: string | null
+          services?: string[]
+          contacts?: { phones?: string[]; website?: string | null }
+          address_note?: string | null
+          data_quality?: { missing?: string[] }
+          map_pos?: { zone: 'INSULAR' | 'CONTINENTAL'; x: number; y: number } | null
+        }>>
       }
       epi: {
         trend: (diseaseId: string, weeks?: number) => Promise<Array<{ week_start: string; cases: number }>>

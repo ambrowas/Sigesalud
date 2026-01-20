@@ -1,10 +1,12 @@
 import { useEffect, useMemo, useState } from 'react'
+import FacilitiesMap from './components/FacilitiesMap'
 
 type Period = 'hoy' | '7d' | '30d'
 type Region = 'todas' | 'litoral' | 'centro-sur'
 type FacilityType = 'hospital' | 'centro-salud'
 type FacilityRegionFilter = 'todas' | 'INSULAR' | 'CONTINENTAL'
 type FacilityTypeFilter = 'todas' | 'HOSPITAL' | 'CLINIC' | 'HEALTH_CENTER' | 'LAB'
+type FacilityView = 'mapa' | 'tabla'
 type ModuleKey = 'dashboard' | 'red_sanitaria' | 'vigilancia' | 'farmacia' | 'pacientes' | 'rrhh' | 'configuracion' | 'ayuda' | 'acerca' | 'laboratorio'
 type TrendPoint = { week_start: string; cases: number }
 type LabPeriod = 'ayer' | '7d' | '30d'
@@ -302,9 +304,11 @@ export default function App() {
   const [facilityRegionFilter, setFacilityRegionFilter] = useState<FacilityRegionFilter>('todas')
   const [facilityTypeFilter, setFacilityTypeFilter] = useState<FacilityTypeFilter>('todas')
   const [facilitySearch, setFacilitySearch] = useState('')
+  const [facilityView, setFacilityView] = useState<FacilityView>('mapa')
   const [activeModule, setActiveModule] = useState<ModuleKey>('dashboard')
   const [facilities, setFacilities] = useState<any[]>([])
   const [selectedFacilityIndex, setSelectedFacilityIndex] = useState<number | null>(null)
+  const [facilityModalOpen, setFacilityModalOpen] = useState(false)
   const [dashboardSummary, setDashboardSummary] = useState<DashboardSummary | null>(null)
   const [epiDisease, setEpiDisease] = useState('MALARIA')
   const [epiDiseases, setEpiDiseases] = useState<Array<{ disease_id: string; name: string }>>([])
@@ -436,6 +440,18 @@ export default function App() {
     return facilities[selectedFacilityIndex] ?? null
   }, [facilities, selectedFacilityIndex])
 
+  const handleFacilitySelect = (facilityId: string) => {
+    const idx = facilities.findIndex(facility => facility.facility_id === facilityId)
+    if (idx !== -1) {
+      setSelectedFacilityIndex(idx)
+      setFacilityModalOpen(true)
+    }
+  }
+
+  const closeFacilityModal = () => {
+    setFacilityModalOpen(false)
+  }
+
   const hrKpisUi = useMemo(() => {
     const total = hrKpis?.total ?? hrWorkers.length
     const active = hrKpis?.active ?? hrWorkers.filter(worker => worker.status === 'ACTIVO').length
@@ -486,12 +502,14 @@ export default function App() {
   useEffect(() => {
     if (facilities.length === 0) {
       if (selectedFacilityIndex !== null) setSelectedFacilityIndex(null)
+      if (facilityModalOpen) setFacilityModalOpen(false)
       return
     }
-    if (selectedFacilityIndex === null || selectedFacilityIndex >= facilities.length) {
-      setSelectedFacilityIndex(0)
+    if (selectedFacilityIndex !== null && selectedFacilityIndex >= facilities.length) {
+      setSelectedFacilityIndex(null)
+      setFacilityModalOpen(false)
     }
-  }, [facilities, selectedFacilityIndex])
+  }, [facilities, selectedFacilityIndex, facilityModalOpen])
 
   useEffect(() => {
     let active = true
@@ -1308,6 +1326,17 @@ export default function App() {
               </div>
                         <div className="filters">
               <label className="filter-control">
+                <span>Vista</span>
+                <select
+                  className="filter-select"
+                  value={facilityView}
+                  onChange={event => setFacilityView(event.target.value as FacilityView)}
+                >
+                  <option value="mapa">Mapa</option>
+                  <option value="tabla">Tabla</option>
+                </select>
+              </label>
+              <label className="filter-control">
                 <span>Region</span>
                 <select
                   className="filter-select"
@@ -1342,38 +1371,61 @@ export default function App() {
             </div>
             </div>
 
-            <div className="facilities-grid">
-              <div className="table facilities-table">
-                <div className="facility-row header">
-                  <div>Centro</div>
-                  <div>Region</div>
-                  <div>Provincia</div>
-                  <div>Tipo</div>
-                  <div>Propiedad</div>
-                </div>
-                {facilities.map((facility: any, index: number) => (
-                  <div
-                    className={`facility-row ${selectedFacilityIndex === index ? 'active' : ''}`}
-                    key={facility.facility_id ?? `${facility.name}-${index}`}
-                    onClick={() => setSelectedFacilityIndex(index)}
-                  >
-                    <div>
-                      <strong>{facility.name}</strong>
-                      <div className="muted">
-                        {facility.city ?? 'N/D'} / {facility.district ?? 'N/D'}
-                      </div>
-                    </div>
-                    <div>{facility.region ?? 'N/D'}</div>
-                    <div>{facility.province ?? 'N/D'}</div>
-                    <div>{FACILITY_LABELS[facility.facility_type] ?? facility.facility_type ?? 'N/D'}</div>
-                    <div>{OWNERSHIP_LABELS[facility.ownership] ?? facility.ownership ?? 'N/D'}</div>
-                  </div>
-                ))}
-              </div>
+            {facilityView === 'mapa' && (
+              <FacilitiesMap
+                facilities={facilities}
+                selectedId={activeFacility?.facility_id ?? null}
+                onSelect={handleFacilitySelect}
+              />
+            )}
 
-              <div className="facility-detail">
-                {activeFacility ? (
-                  <>
+            {facilityView === 'tabla' && (
+              <div className="facilities-table-only">
+                <div className="table facilities-table">
+                  <div className="facility-row header">
+                    <div>Centro</div>
+                    <div>Region</div>
+                    <div>Provincia</div>
+                    <div>Tipo</div>
+                    <div>Propiedad</div>
+                  </div>
+                  {facilities.map((facility: any, index: number) => (
+                    <div
+                      className={`facility-row ${selectedFacilityIndex === index ? 'active' : ''}`}
+                      key={facility.facility_id ?? `${facility.name}-${index}`}
+                      onClick={() => facility.facility_id && handleFacilitySelect(facility.facility_id)}
+                    >
+                      <div>
+                        <strong>{facility.name}</strong>
+                        <div className="muted">
+                          {facility.city ?? 'N/D'} / {facility.district ?? 'N/D'}
+                        </div>
+                      </div>
+                      <div>{facility.region ?? 'N/D'}</div>
+                      <div>{facility.province ?? 'N/D'}</div>
+                      <div>{FACILITY_LABELS[facility.facility_type] ?? facility.facility_type ?? 'N/D'}</div>
+                      <div>{OWNERSHIP_LABELS[facility.ownership] ?? facility.ownership ?? 'N/D'}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {facilityModalOpen && activeFacility && (
+              <div className="facility-modal-overlay" onClick={closeFacilityModal}>
+                <div
+                  className="facility-modal"
+                  role="dialog"
+                  aria-modal="true"
+                  onClick={event => event.stopPropagation()}
+                >
+                  <div className="facility-modal-header">
+                    <h4>Ficha del centro</h4>
+                    <button type="button" className="facility-modal-close" onClick={closeFacilityModal}>
+                      Cerrar
+                    </button>
+                  </div>
+                  <div className="facility-detail facility-modal-card">
                     <div className="detail-header">
                       <div className="detail-identity">
                         <div className="detail-photo">
@@ -1461,12 +1513,10 @@ export default function App() {
                         </div>
                       </div>
                     </div>
-                  </>
-                ) : (
-                  <div className="empty">Seleccione un centro para ver el detalle.</div>
-                )}
+                  </div>
+                </div>
               </div>
-            </div>
+            )}
           </section>
         )}
 

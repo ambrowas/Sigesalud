@@ -564,6 +564,159 @@ main {
   align-items: start;
 }
 
+.facilities-table-only {
+  display: grid;
+  gap: 10px;
+}
+
+.facilities-map-panel {
+  background: var(--panel);
+  border-radius: 18px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.facilities-map {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1000 / 917;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #edf1ed;
+  border: 1px solid var(--border);
+}
+
+.map-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.map-marker {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+  box-shadow: 0 6px 14px rgba(15, 29, 43, 0.18);
+  cursor: pointer;
+  background: #1f6f4a;
+}
+
+.map-marker.active {
+  transform: translate(-50%, -50%) scale(1.2);
+  box-shadow: 0 8px 18px rgba(15, 29, 43, 0.28);
+}
+
+.map-marker[data-type='HOSPITAL'] {
+  background: #b3363e;
+}
+
+.map-marker[data-type='CLINIC'] {
+  background: #d18d2c;
+}
+
+.map-marker[data-type='HEALTH_CENTER'] {
+  background: #1f6f4a;
+}
+
+.map-marker[data-type='LAB'] {
+  background: #3a6ea5;
+}
+
+.map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #1f6f4a;
+}
+
+.legend-item[data-type='HOSPITAL'] .legend-dot {
+  background: #b3363e;
+}
+
+.legend-item[data-type='CLINIC'] .legend-dot {
+  background: #d18d2c;
+}
+
+.legend-item[data-type='HEALTH_CENTER'] .legend-dot {
+  background: #1f6f4a;
+}
+
+.legend-item[data-type='LAB'] .legend-dot {
+  background: #3a6ea5;
+}
+
+.facility-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 29, 43, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 20;
+}
+
+.facility-modal {
+  width: min(960px, 92vw);
+  max-height: 88vh;
+  overflow: auto;
+  background: var(--panel);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 0 24px 60px rgba(15, 29, 43, 0.25);
+  padding: 18px;
+  display: grid;
+  gap: 12px;
+}
+
+.facility-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.facility-modal-close {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.facility-modal .facility-detail {
+  position: static;
+  top: auto;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
 .facilities-table {
   display: grid;
   gap: 10px;

@@ -6,6 +6,7 @@ import { app } from 'electron'
 const DB_FILE = 'sigesalud-demo.sqlite'
 let sqlPromise: Promise<ReturnType<typeof initSqlJs>> | null = null
 let dbInstance: Database | null = null
+let facilityMapPosCache: Record<string, { zone: string; x: number; y: number }> | null = null
 
 function dbPath() {
   const appPath = app?.getAppPath?.() ?? process.cwd()
@@ -18,6 +19,50 @@ function dbPath() {
 function getWasmPath() {
   const appPath = app?.getAppPath?.() ?? process.cwd()
   return path.join(appPath, 'node_modules', 'sql.js', 'dist', 'sql-wasm.wasm')
+}
+
+function findFullDataRoot() {
+  const appPath = app?.getAppPath?.() ?? process.cwd()
+  const localFullRoot = path.join(appPath, 'src', 'main', 'seed', 'data_full')
+  const distFullRoot = path.join(__dirname, '..', 'seed', 'data_full')
+  const downloadsRoot = path.join(process.env.USERPROFILE ?? '', 'Downloads', 'SIGESALUD-GE_full_dataset_v1')
+  const candidateRoots = [process.env.SIGESALUD_DATA_ROOT, downloadsRoot, localFullRoot, distFullRoot].filter(
+    (root): root is string => Boolean(root)
+  )
+  return candidateRoots.find(root => fs.existsSync(path.join(root, 'seed.config.json')))
+}
+
+function loadFacilityMapPositions() {
+  if (facilityMapPosCache) return facilityMapPosCache
+  const fullRoot = findFullDataRoot()
+  if (!fullRoot) {
+    facilityMapPosCache = {}
+    return facilityMapPosCache
+  }
+  const filePath = path.join(fullRoot, 'facilities.full.json')
+  if (!fs.existsSync(filePath)) {
+    facilityMapPosCache = {}
+    return facilityMapPosCache
+  }
+  const raw = fs.readFileSync(filePath, 'utf8')
+  const data = JSON.parse(raw)
+  const map: Record<string, { zone: string; x: number; y: number }> = {}
+  for (const facility of data.facilities || []) {
+    if (facility.facility_id && facility.map_pos) {
+      map[facility.facility_id] = facility.map_pos
+    }
+  }
+  facilityMapPosCache = map
+  return map
+}
+
+function ensureFacilityMapPosColumn(db: Database) {
+  const result = db.exec('PRAGMA table_info(facilities)')
+  const columns = result[0]?.values ?? []
+  const hasColumn = columns.some(row => row[1] === 'map_pos_json')
+  if (!hasColumn) {
+    db.exec('ALTER TABLE facilities ADD COLUMN map_pos_json TEXT')
+  }
 }
 
 async function getSql() {
@@ -44,7 +89,8 @@ function createSchema(db: Database) {
       services_json TEXT,
       contacts_json TEXT,
       address_note TEXT,
-      data_quality_json TEXT
+      data_quality_json TEXT,
+      map_pos_json TEXT
     );
     CREATE TABLE IF NOT EXISTS patients (
       patient_id TEXT PRIMARY KEY,
@@ -266,6 +312,7 @@ async function getDb() {
 export async function initializeDbIfNeeded() {
   const db = await getDb()
   createSchema(db)
+  ensureFacilityMapPosColumn(db)
 }
 
 function selectAll(db: Database, sql: string, params: Array<string | number | null> = []) {
@@ -455,6 +502,7 @@ export class FacilityService {
     const db = await getDb()
     const where: string[] = []
     const params: Array<string> = []
+    const mapPosLookup = loadFacilityMapPositions()
 
     if (filters.region && filters.region !== 'todas') {
       where.push('region = ?')
@@ -476,7 +524,10 @@ export class FacilityService {
       ...row,
       services: row.services_json ? JSON.parse(row.services_json as string) : [],
       contacts: row.contacts_json ? JSON.parse(row.contacts_json as string) : {},
-      data_quality: row.data_quality_json ? JSON.parse(row.data_quality_json as string) : {}
+      data_quality: row.data_quality_json ? JSON.parse(row.data_quality_json as string) : {},
+      map_pos: row.map_pos_json
+        ? JSON.parse(row.map_pos_json as string)
+        : mapPosLookup[String(row.facility_id)] ?? null
     }))
   }
 }

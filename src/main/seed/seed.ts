@@ -4,6 +4,12 @@ import bcrypt from 'bcryptjs'
 import initSqlJs, { Database } from 'sql.js'
 import { app } from 'electron'
 
+function readJsonFile(filePath: string) {
+  const raw = fs.readFileSync(filePath, 'utf8')
+  const normalized = raw.replace(/^\uFEFF/, '')
+  return JSON.parse(normalized)
+}
+
 function getDbPath() {
   const userPath = app ? app.getPath('userData') : process.cwd()
   return path.join(userPath, 'sigesalud-demo.sqlite')
@@ -28,7 +34,8 @@ function createSchema(db: Database) {
       services_json TEXT,
       contacts_json TEXT,
       address_note TEXT,
-      data_quality_json TEXT
+      data_quality_json TEXT,
+      map_pos_json TEXT
     );
     CREATE TABLE IF NOT EXISTS patients (
       patient_id TEXT PRIMARY KEY,
@@ -290,8 +297,7 @@ function noteTemplate(diagnosisId?: string | null) {
 
 async function seed() {
   const dbPath = getDbPath()
-  const raw = fs.readFileSync(path.join(__dirname, 'seed-data.json'), 'utf8')
-  const data = JSON.parse(raw)
+  const data = readJsonFile(path.join(__dirname, 'seed-data.json'))
   const localFullRoot = path.join(__dirname, 'data_full')
   const localHrRoot = path.join(__dirname, 'hr')
   const localLegacyHrRoot = path.join(__dirname, 'data_full_hr')
@@ -316,32 +322,32 @@ async function seed() {
   createSchema(db)
 
   if (hasFullData && fullRoot) {
-    const facilitiesFull = JSON.parse(fs.readFileSync(path.join(fullRoot, 'facilities.full.json'), 'utf8'))
-    const patientsFull = JSON.parse(fs.readFileSync(path.join(fullRoot, 'patients.json'), 'utf8'))
-    const visitsFull = JSON.parse(fs.readFileSync(path.join(fullRoot, 'visits_2025.json'), 'utf8'))
-    const alertsFull = JSON.parse(fs.readFileSync(path.join(fullRoot, 'alerts.generated.json'), 'utf8'))
-    const stockCatalog = JSON.parse(fs.readFileSync(path.join(fullRoot, 'stock.catalog.json'), 'utf8'))
-    const stockLevels = JSON.parse(fs.readFileSync(path.join(fullRoot, 'stock_levels_monthly_2025.json'), 'utf8'))
-    const staffAssignments = JSON.parse(fs.readFileSync(path.join(fullRoot, 'staff_assignments.json'), 'utf8'))
-    const epiWeekly = JSON.parse(fs.readFileSync(path.join(fullRoot, 'epi_weekly_2025.json'), 'utf8'))
-    const regions = JSON.parse(fs.readFileSync(path.join(fullRoot, 'geo.regions.json'), 'utf8'))
-    const provinces = JSON.parse(fs.readFileSync(path.join(fullRoot, 'geo.provinces.json'), 'utf8'))
-    const districts = JSON.parse(fs.readFileSync(path.join(fullRoot, 'geo.districts.json'), 'utf8'))
-    const municipalities = JSON.parse(fs.readFileSync(path.join(fullRoot, 'geo.municipalities.json'), 'utf8'))
-    const diseasesCatalog = JSON.parse(fs.readFileSync(path.join(fullRoot, 'diseases.catalog.json'), 'utf8'))
-    const labSummary = JSON.parse(fs.readFileSync(path.join(fullRoot, 'lab.summary.json'), 'utf8'))
-    const labDisease = JSON.parse(fs.readFileSync(path.join(fullRoot, 'lab.disease.json'), 'utf8'))
-    const labAlerts = JSON.parse(fs.readFileSync(path.join(fullRoot, 'lab.alerts.json'), 'utf8'))
-    const hrWorkers = hrRoot ? JSON.parse(fs.readFileSync(path.join(hrRoot, 'hr.workers.json'), 'utf8')) : null
-    const hrAssignments = hrRoot ? JSON.parse(fs.readFileSync(path.join(hrRoot, 'hr.assignments.json'), 'utf8')) : null
-    const hrHistory = hrRoot ? JSON.parse(fs.readFileSync(path.join(hrRoot, 'hr.history.json'), 'utf8')) : null
-    const hrCredentials = hrRoot ? JSON.parse(fs.readFileSync(path.join(hrRoot, 'hr.credentials.json'), 'utf8')) : null
+    const facilitiesFull = readJsonFile(path.join(fullRoot, 'facilities.full.json'))
+    const patientsFull = readJsonFile(path.join(fullRoot, 'patients.json'))
+    const visitsFull = readJsonFile(path.join(fullRoot, 'visits_2025.json'))
+    const alertsFull = readJsonFile(path.join(fullRoot, 'alerts.generated.json'))
+    const stockCatalog = readJsonFile(path.join(fullRoot, 'stock.catalog.json'))
+    const stockLevels = readJsonFile(path.join(fullRoot, 'stock_levels_monthly_2025.json'))
+    const staffAssignments = readJsonFile(path.join(fullRoot, 'staff_assignments.json'))
+    const epiWeekly = readJsonFile(path.join(fullRoot, 'epi_weekly_2025.json'))
+    const regions = readJsonFile(path.join(fullRoot, 'geo.regions.json'))
+    const provinces = readJsonFile(path.join(fullRoot, 'geo.provinces.json'))
+    const districts = readJsonFile(path.join(fullRoot, 'geo.districts.json'))
+    const municipalities = readJsonFile(path.join(fullRoot, 'geo.municipalities.json'))
+    const diseasesCatalog = readJsonFile(path.join(fullRoot, 'diseases.catalog.json'))
+    const labSummary = readJsonFile(path.join(fullRoot, 'lab.summary.json'))
+    const labDisease = readJsonFile(path.join(fullRoot, 'lab.disease.json'))
+    const labAlerts = readJsonFile(path.join(fullRoot, 'lab.alerts.json'))
+    const hrWorkers = hrRoot ? readJsonFile(path.join(hrRoot, 'hr.workers.json')) : null
+    const hrAssignments = hrRoot ? readJsonFile(path.join(hrRoot, 'hr.assignments.json')) : null
+    const hrHistory = hrRoot ? readJsonFile(path.join(hrRoot, 'hr.history.json')) : null
+    const hrCredentials = hrRoot ? readJsonFile(path.join(hrRoot, 'hr.credentials.json')) : null
 
     const insertFacility = db.prepare(`
       INSERT INTO facilities (
         facility_id, name, region, province, district, city, facility_type, reference_level,
-        ownership, services_json, contacts_json, address_note, data_quality_json
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ownership, services_json, contacts_json, address_note, data_quality_json, map_pos_json
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `)
     for (const facility of facilitiesFull.facilities || []) {
       insertFacility.run([
@@ -357,7 +363,8 @@ async function seed() {
         JSON.stringify(facility.services ?? []),
         JSON.stringify(facility.contacts ?? {}),
         facility.address_note ?? null,
-        JSON.stringify(facility.data_quality ?? {})
+        JSON.stringify(facility.data_quality ?? {}),
+        JSON.stringify(facility.map_pos ?? null)
       ])
     }
     insertFacility.free()
@@ -717,13 +724,12 @@ async function seed() {
     }
     insertLabAlert.free()
   } else {
-    const facilitiesRaw = fs.readFileSync(path.join(__dirname, 'reference', 'facilities.base.json'), 'utf8')
-    const facilitiesBase = JSON.parse(facilitiesRaw)
+    const facilitiesBase = readJsonFile(path.join(__dirname, 'reference', 'facilities.base.json'))
     const insertFacility = db.prepare(`
       INSERT INTO facilities (
         facility_id, name, region, province, district, city, facility_type, reference_level,
-        ownership, services_json, contacts_json, address_note, data_quality_json
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ownership, services_json, contacts_json, address_note, data_quality_json, map_pos_json
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `)
     for (const f of data.facilities) {
       insertFacility.run([
@@ -739,7 +745,8 @@ async function seed() {
         JSON.stringify([]),
         JSON.stringify({}),
         null,
-        JSON.stringify({ missing: ['province', 'district', 'city', 'facility_type', 'ownership'] })
+        JSON.stringify({ missing: ['province', 'district', 'city', 'facility_type', 'ownership'] }),
+        null
       ])
     }
     for (const facility of facilitiesBase.facilities || []) {
@@ -756,7 +763,8 @@ async function seed() {
         JSON.stringify(facility.services ?? []),
         JSON.stringify(facility.contacts ?? {}),
         facility.address_note ?? null,
-        JSON.stringify(facility.data_quality ?? {})
+        JSON.stringify(facility.data_quality ?? {}),
+        JSON.stringify((facility as any).map_pos ?? null)
       ])
     }
     insertFacility.free()
